@@ -1,0 +1,31 @@
+name: Migrate Assets to Local
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/migrate-assets.yml'
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Download Images
+        run: |
+          mkdir -p assets/images
+          curl -o assets/images/hero.png https://sc02.alicdn.com/kf/Afbc175afab4f44f7b117a78c837d9aadi.png
+          curl -o assets/images/factory.png https://sc02.alicdn.com/kf/A358b6a5825b94b7c888b0e69bb972bea8.png
+          curl -o assets/images/market.png https://sc02.alicdn.com/kf/Aaa200a8cb53246e498582fd13f96557bo.png
+          curl -o assets/images/qc.png https://sc02.alicdn.com/kf/A5a902275ac9e4b01b2cb2768978c81fac.png
+          curl -o assets/images/inflatable.png https://sc02.alicdn.com/kf/Aba7afcd172ea4f01b178ee7ee3a26353j.png
+          curl -o assets/images/automatic.png https://sc02.alicdn.com/kf/Ae895971febff4fb8b9126edd4f99ffa0W.png
+          curl -o assets/images/rooftop.png https://sc02.alicdn.com/kf/A8192e0fee8724b279db726b3cdb445caO.png
+          curl -o assets/images/furniture.png https://sc02.alicdn.com/kf/A422702ced1354b3f909fdc9894d524192.png
+          curl -o assets/images/news4.png https://sc02.alicdn.com/kf/Abefe6412a8b043cebfd928fd5fa5f60bP.png
+          curl -o assets/images/news3.png https://sc02.alicdn.com/kf/A23e2477436064784859ae898359a80b6G.png
+      - name: Commit and Push
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add assets/images/
+          git commit -m "Automated: Migrate images from Alibaba CDN to local assets"
+          git push
