@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - '.github/workflows/migrate-assets.yml'
+permissions:
+  contents: write
 jobs:
   migrate:
     runs-on: ubuntu-latest
