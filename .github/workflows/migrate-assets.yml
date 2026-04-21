@@ -24,6 +24,14 @@ jobs:
           curl -o assets/images/furniture.png https://sc02.alicdn.com/kf/A422702ced1354b3f909fdc9894d524192.png
           curl -o assets/images/news4.png https://sc02.alicdn.com/kf/Abefe6412a8b043cebfd928fd5fa5f60bP.png
           curl -o assets/images/news3.png https://sc02.alicdn.com/kf/A23e2477436064784859ae898359a80b6G.png
+          curl -o assets/images/prod_inflatable_truck.png https://s.alicdn.com/@sc04/kf/Hba055387126d466786268816b67b2428U/Wind-Valley-New-Four-season-Oxford-Ripstop.png
+          curl -o assets/images/prod_rooftop_inflatable.png https://s.alicdn.com/@sc04/kf/H6ad2604b65ba4cfca716df56ac17ee10H/Wind-Valley-Outdoor-Camping-Inflatable-Single-Layer.png
+          curl -o assets/images/prod_automatic_quick.png https://s.alicdn.com/@sc04/kf/Ha8792e8a7aa04360a145f1c0f32be4e01/Outdoor-Full-Automatic-Quick-Opening-Four-Sided.png
+          curl -o assets/images/prod_privacy_warm.png https://s.alicdn.com/@sc04/kf/Hda9a825703e34a58b24b58b1de3b1adax/Winter-Thickened-Warm-Portable-Outdoor-Bath-Changing.png
+          curl -o assets/images/prod_furniture_gazebo.png https://s.alicdn.com/@sc04/kf/H50ba3805ba6b47dea4d351e46110770aU/Custom-Toldos-Para-Patios-40mm-Folding-Popup.jpg
+          curl -o assets/images/prod_beach_blanket.png https://s.alicdn.com/@sc04/kf/H05f0bfd3c6d944d7a5451a2c51ae7eb3m/82-79inch-Waterproof-Pocket-Beach-Blanket-Folding.png
+          curl -o assets/images/prod_mosquito_net.png https://s.alicdn.com/@sc04/kf/H273d1ae696be436f9a23a8df283843bbJ/Wind-Valley-Portable-2-person-Mosquito-Net.png
+          curl -o assets/images/prod_airbed.png https://s.alicdn.com/@sc04/kf/H07172c5cfe3745239e08dba34e44aba8E/Easy-Carry-Folding-Airbed-Queen-Size-Inflatable.png
       - name: Commit and Push
         run: |
           git config --global user.name 'github-actions[bot]'
