@@ -45,6 +45,28 @@
         const content = document.getElementById('news-content');
 
         const newsData = {
+            '8': {
+                title: "2026 B2B Camping Outlook: Inflatable Glamping and Eco-Materials Lead the Charge",
+                date: "May 4, 2026",
+                image: "assets/images/inflatable.png",
+                body: `
+                    <p class="text-gray-600 mb-6 leading-relaxed text-lg">As we move into the 2026 season, the global camping tent market is witnessing a major transformation. Recent industry analysis projects the market size to reach USD 5.1 billion by 2028, with the Inflatable Tent segment leading the charge with a 13.5% CAGR. This growth is primarily fueled by the "Luxury Glamping" movement and the increasing demand for "effortless" outdoor experiences.</p>
+                    <img src="assets/images/inflatable.png" class="rounded-3xl shadow-lg mb-8 w-full h-[450px] object-cover">
+                    <p class="text-gray-600 mb-6 leading-relaxed text-lg">The 2026 trend report highlights two critical pillars for B2B buyers: <strong>Rapid-Pitch Technology</strong> and <strong>Sustainability</strong>. Inflatable structures, which eliminate complex pole systems, are now the preferred choice for family travelers and luxury camping resorts. Simultaneously, the adoption of recycled polyester (rPET) and eco-tech materials has become a mandatory requirement for global retailers seeking to meet ESG goals.</p>
+                    <p class="text-gray-600 mb-6 leading-relaxed text-lg">Ningbo Xinqiu Tents is responding to these signals by doubling its production capacity for premium air-beam models and hard-shell roof-top tents. Our 2026 R&D roadmap includes solar-panel ready tent surfaces and modular inflatable pods, ensuring our partners stay ahead of the competitive landscape. With our BSCI-certified manufacturing, we continue to provide high-margin, market-ready solutions for the evolving outdoor industry.</p>
+                `
+            },
+            '7': {
+                title: "2026 Global Camping Forecast: The Explosive Growth of Inflatable and Sustainable Shelters",
+                date: "April 27, 2026",
+                image: "assets/images/inflatable.png",
+                body: `
+                    <p class="text-gray-600 mb-6 leading-relaxed text-lg">The global camping tent market is poised for a significant leap in 2026, with industry analysts projecting the sector to reach USD 4.7 billion. A standout performer in this expansion is the Inflatable Tent category, which is forecasted to maintain a remarkable Compound Annual Growth Rate (CAGR) of 13.5% through 2033.</p>
+                    <img src="assets/images/inflatable.png" class="rounded-3xl shadow-lg mb-8 w-full h-[450px] object-cover">
+                    <p class="text-gray-600 mb-6 leading-relaxed text-lg">This surge is driven by a fundamental shift in consumer behavior towards "effortless glamping" and eco-conscious adventure. High-capacity shelters, designed for 6 to 12 occupants, are seeing unprecedented demand from family travelers and commercial outdoor event organizers. The primary appeal lies in the rapid-pitch air-beam technology, which eliminates the logistical complexity of traditional pole-based systems.</p>
+                    <p class="text-gray-600 mb-6 leading-relaxed text-lg">Furthermore, 2026 marks the "Year of Material Innovation." Manufacturers are pivoting towards ultralight, ripstop fabrics and recycled polyester (rPET) to satisfy the rigorous ESG (Environmental, Social, and Governance) requirements of global retailers. Ningbo Xinqiu Tents is actively responding to these market signals by expanding its production of R&D-driven inflatable models and sustainable hard-shell roof-top solutions.</p>
+                `
+            },
             '1': {
                 title: "Factory Capacity Expansion for 2026 Peak Season",
                 date: "April 11, 2026",
@@ -112,14 +134,14 @@
         if (newsData[newsId]) {
             const news = newsData[newsId];
             content.innerHTML = `
-                <div class="text-blue-600 font-bold mb-4 text-center">${news.date}</div>
-                <h1 class="text-4xl md:text-5xl font-bold text-blue-900 mb-12 leading-tight text-center">${news.title}</h1>
+                <div class="text-blue-600 font-bold mb-4 text-center">\${news.date}</div>
+                <h1 class="text-4xl md:text-5xl font-bold text-blue-900 mb-12 leading-tight text-center">\${news.title}</h1>
                 <div class="prose prose-lg max-w-none text-gray-700">
-                    ${news.body}
+                    \${news.body}
                 </div>
             `;
         } else {
-            content.innerHTML = `<h1 class="text-3xl font-bold text-center">News article not found.</h1><a href="index.html" class="text-blue-600 mt-8 block text-center font-bold">Return to Home</a>`;
+            content.innerHTML = \`<h1 class="text-3xl font-bold text-center">News article not found.</h1><a href="index.html" class="text-blue-600 mt-8 block text-center font-bold">Return to Home</a>\`;
         }
     </script>
 </body>
