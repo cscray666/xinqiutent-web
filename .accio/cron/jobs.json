@@ -1,0 +1,102 @@
+{
+  "version": 2,
+  "jobs": [
+    {
+      "id": "cron-1774409634559-33rtesad",
+      "name": "竞品动态",
+      "enabled": false,
+      "deleteAfterRun": false,
+      "createdAtMs": 1774409634559,
+      "updatedAtMs": 1775099857926,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 10 * * 1,2,3,4,5"
+      },
+      "payload": {
+        "kind": "agent",
+        "message": "Search the web for the latest news, product updates, and pricing changes from competitors in my industry. Compare with any previously noted findings in memory and highlight what's new or significant.",
+        "agent": "DID-F456DA-2B0D4C"
+      },
+      "state": {
+        "lastRunAtMs": 1775095924468,
+        "lastStatus": "ok",
+        "lastDurationMs": 3
+      },
+      "target": {
+        "type": "agent_sticky",
+        "agentId": "DID-F456DA-2B0D4C",
+        "boundConversationId": "CID-75967330U1774490-ACE10E-4000-EBA35B"
+      },
+      "workspacePath": "C:\\Users\\Ray\\.accio\\accounts\\1749967330\\agents\\DID-F456DA-2B0D4C\\project",
+      "createdBy": {
+        "source": "ui"
+      }
+    },
+    {
+      "id": "cron-1775920070511-o5e0o2qs",
+      "name": "Weekly B2B News Generation for XinqiuTent.com",
+      "enabled": true,
+      "deleteAfterRun": false,
+      "createdAtMs": 1775920070511,
+      "updatedAtMs": 1777856400152,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 1",
+        "tz": "Asia/Shanghai"
+      },
+      "payload": {
+        "kind": "agent",
+        "message": "1. 搜索户外露营市场最新趋势（特别是针对帐篷、充气帐篷、车顶帐篷）。\n2. 根据搜索到的趋势，撰写一篇专业的 B2B 新闻稿（英文），字数约 200-300 字。\n3. 主题建议：'2026 Camping Trends: The Rise of Inflatable Glamping Tents' 或类似。\n4. 使用 edit 工具更新项目路径下的 news.html，在 newsData 对象中添加一个新的新闻 ID 和内容。\n5. 更新 index.html 中的新闻列表，显示最新的这一篇新闻标题。\n6. 完成后，通过 question 工具通知老板：'本周行业新闻已更新到您的网站！'。",
+        "agent": "general"
+      },
+      "state": {
+        "nextRunAtMs": 1778461200000,
+        "lastRunAtMs": 1777856400120,
+        "lastStatus": "ok",
+        "lastDurationMs": 49
+      },
+      "target": {
+        "type": "conversation",
+        "conversationId": "CID-49967330U1775909-ACE10E-4389-A61421"
+      },
+      "workspacePath": "C:\\Users\\Ray\\.accio\\accounts\\1749967330\\agents\\DID-F456DA-2B0D4C\\project",
+      "createdBy": {
+        "source": "agent",
+        "actorId": "DID-F456DA-2B0D4C"
+      }
+    },
+    {
+      "id": "cron-1776781502379-k0s3dkti",
+      "name": "每日流量数据播报",
+      "enabled": true,
+      "deleteAfterRun": false,
+      "createdAtMs": 1776781502379,
+      "updatedAtMs": 1778068800222,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 20 * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "payload": {
+        "kind": "agent",
+        "message": "请根据 Google Analytics 数据，为老板播报今日（截至晚上8点）的独立站流量统计情况（访客数、页面浏览量、热门来源和国家）。网站地址: www.xinqiutent.com",
+        "agent": "general"
+      },
+      "state": {
+        "nextRunAtMs": 1778155200000,
+        "lastRunAtMs": 1778068800166,
+        "lastStatus": "ok",
+        "lastDurationMs": 66
+      },
+      "target": {
+        "type": "conversation",
+        "conversationId": "CID-49967330U1775909-ACE10E-4389-A61421"
+      },
+      "workspacePath": "C:\\Users\\Ray\\.accio\\accounts\\1749967330\\agents\\DID-F456DA-2B0D4C\\project",
+      "createdBy": {
+        "source": "agent",
+        "actorId": "DID-F456DA-2B0D4C"
+      }
+    }
+  ]
+}
