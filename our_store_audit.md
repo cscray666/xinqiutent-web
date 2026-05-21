@@ -62,7 +62,7 @@ Three products were audited: "Easy Set-Up Waterproof Camping Set", "Modern Desig
 
 ## 4. Company Profile & Factory Presentation
 - **Certifications:** BSCI certified (ID 25-0369166). Verified by SGS Group.
-- **Factory:** 2844 sqm floor space, 61 production machines, 4 dedicated QA/QC inspectors.
+- **Factory:** 5500 sqm floor space, 61 production machines, 4 dedicated QA/QC inspectors.
 - **Team:** Presentation of the sales and support team (Ray, Helen, Miya, Lisa).
 - **History:** 14 years on Alibaba, founded in 2011.
 - **Performance:** 4.9/5 satisfaction rate, US$ 110,000+ online revenue.
