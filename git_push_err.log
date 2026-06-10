@@ -1,0 +1,73 @@
+09:30:53.839417 http.c:868              == Info: Couldn't find host github.com in the .netrc file; using defaults
+09:30:53.839417 http.c:868              == Info:   Trying 127.0.0.1:12450...
+09:30:53.839417 http.c:868              == Info: Connected to 127.0.0.1 (127.0.0.1) port 12450
+09:30:53.842919 http.c:868              == Info: CONNECT tunnel: HTTP/1.1 negotiated
+09:30:53.842919 http.c:868              == Info: allocate connect buffer
+09:30:53.842919 http.c:868              == Info: Establish HTTP proxy tunnel to github.com:443
+09:30:53.842919 http.c:815              => Send header, 0000000121 bytes (0x00000079)
+09:30:53.847739 http.c:827              => Send header: CONNECT github.com:443 HTTP/1.1
+09:30:53.847739 http.c:827              => Send header: Host: github.com:443
+09:30:53.847739 http.c:827              => Send header: User-Agent: git/2.44.0.windows.1
+09:30:53.847739 http.c:827              => Send header: Proxy-Connection: Keep-Alive
+09:30:53.847739 http.c:827              => Send header:
+09:30:53.847739 http.c:815              <= Recv header, 0000000037 bytes (0x00000025)
+09:30:53.847739 http.c:827              <= Recv header: HTTP/1.1 200 Connection established
+09:30:53.847739 http.c:815              <= Recv header, 0000000002 bytes (0x00000002)
+09:30:53.847739 http.c:827              <= Recv header:
+09:30:53.847739 http.c:868              == Info: CONNECT phase completed
+09:30:53.847739 http.c:868              == Info: CONNECT tunnel established, response 200
+09:30:53.849243 http.c:868              == Info: ALPN: curl offers http/1.1
+09:30:53.849243 http.c:868              == Info: TLSv1.3 (OUT), TLS handshake, Client hello (1):
+09:30:54.514075 http.c:868              == Info: TLSv1.3 (IN), TLS handshake, Server hello (2):
+09:30:54.514587 http.c:868              == Info: TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+09:30:54.514587 http.c:868              == Info: TLSv1.3 (IN), TLS handshake, Certificate (11):
+09:30:54.515640 http.c:868              == Info: TLSv1.3 (IN), TLS handshake, CERT verify (15):
+09:30:54.515640 http.c:868              == Info: TLSv1.3 (IN), TLS handshake, Finished (20):
+09:30:54.515640 http.c:868              == Info: TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+09:30:54.515640 http.c:868              == Info: TLSv1.3 (OUT), TLS handshake, Finished (20):
+09:30:54.515640 http.c:868              == Info: SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256 / x25519 / id-ecPublicKey
+09:30:54.516108 http.c:868              == Info: ALPN: server accepted http/1.1
+09:30:54.516108 http.c:868              == Info: Server certificate:
+09:30:54.516108 http.c:868              == Info:  subject: CN=github.com
+09:30:54.516108 http.c:868              == Info:  start date: May  5 00:00:00 2026 GMT
+09:30:54.516108 http.c:868              == Info:  expire date: Aug  2 23:59:59 2026 GMT
+09:30:54.516108 http.c:868              == Info:  issuer: C=GB; O=Sectigo Limited; CN=Sectigo Public Server Authentication CA DV E36
+09:30:54.516108 http.c:868              == Info:  SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.
+09:30:54.516108 http.c:868              == Info:   Certificate level 0: Public key type EC/prime256v1 (256/128 Bits/secBits), signed using ecdsa-with-SHA256
+09:30:54.516108 http.c:868              == Info:   Certificate level 1: Public key type EC/prime256v1 (256/128 Bits/secBits), signed using ecdsa-with-SHA384
+09:30:54.516108 http.c:868              == Info:   Certificate level 2: Public key type EC/secp384r1 (384/192 Bits/secBits), signed using ecdsa-with-SHA384
+09:30:54.516108 http.c:868              == Info: using HTTP/1.x
+09:30:54.516108 http.c:815              => Send header, 0000000206 bytes (0x000000ce)
+09:30:54.516108 http.c:827              => Send header: GET /cscray666/xinqiutent-web.git/info/refs?service=git-receive-pack HTTP/1.1
+09:30:54.516108 http.c:827              => Send header: Host: github.com
+09:30:54.516108 http.c:827              => Send header: User-Agent: git/2.44.0.windows.1
+09:30:54.516108 http.c:827              => Send header: Accept: */*
+09:30:54.516108 http.c:827              => Send header: Accept-Encoding: deflate, gzip, br, zstd
+09:30:54.516108 http.c:827              => Send header: Pragma: no-cache
+09:30:54.516108 http.c:827              => Send header:
+09:30:54.783517 http.c:868              == Info: TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+09:30:54.783517 http.c:868              == Info: TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+09:30:54.783517 http.c:868              == Info: old SSL session ID is stale, removing
+09:30:54.811718 http.c:815              <= Recv header, 0000000027 bytes (0x0000001b)
+09:30:54.811718 http.c:827              <= Recv header: HTTP/1.1 401 Unauthorized
+09:30:54.811718 http.c:815              <= Recv header, 0000000026 bytes (0x0000001a)
+09:30:54.811718 http.c:827              <= Recv header: Server: GitHub-Babel/3.0
+09:30:54.811718 http.c:815              <= Recv header, 0000000054 bytes (0x00000036)
+09:30:54.811718 http.c:827              <= Recv header: Content-Security-Policy: default-src 'none'; sandbox
+09:30:54.811718 http.c:815              <= Recv header, 0000000041 bytes (0x00000029)
+09:30:54.811718 http.c:827              <= Recv header: Content-Type: text/plain; charset=UTF-8
+09:30:54.811718 http.c:815              <= Recv header, 0000000040 bytes (0x00000028)
+09:30:54.811718 http.c:827              <= Recv header: www-authenticate: Basic realm="GitHub"
+09:30:54.811718 http.c:815              <= Recv header, 0000000020 bytes (0x00000014)
+09:30:54.811718 http.c:827              <= Recv header: Content-Length: 26
+09:30:54.811718 http.c:815              <= Recv header, 0000000037 bytes (0x00000025)
+09:30:54.811718 http.c:827              <= Recv header: Date: Wed, 10 Jun 2026 01:30:55 GMT
+09:30:54.812320 http.c:815              <= Recv header, 0000000057 bytes (0x00000039)
+09:30:54.812320 http.c:827              <= Recv header: X-GitHub-Request-Id: B109:9827:33A34A4:3EEC601:6A28BE4F
+09:30:54.812320 http.c:815              <= Recv header, 0000000023 bytes (0x00000017)
+09:30:54.812320 http.c:827              <= Recv header: X-Frame-Options: DENY
+09:30:54.812320 http.c:815              <= Recv header, 0000000073 bytes (0x00000049)
+09:30:54.812320 http.c:827              <= Recv header: Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+09:30:54.812320 http.c:815              <= Recv header, 0000000002 bytes (0x00000002)
+09:30:54.812320 http.c:827              <= Recv header:
+09:30:54.812320 http.c:868              == Info: Connection #0 to host 127.0.0.1 left intact
