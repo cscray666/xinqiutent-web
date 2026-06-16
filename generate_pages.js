@@ -139,52 +139,52 @@ function generateProductCard(p, index) {
 const categories = {
     "Camping Tents": {
         filename: "camping-tents.html",
-        title: "Wholesale Professional Camping Tents",
+        title: "Wholesale Camping Tent Factory - Professional OEM/ODM Manufacturing",
         header: "High-Performance Outdoor Shelters",
         sub: "From rapid-setup automatic tents to professional expedition gear. BSCI certified quality.",
-        desc: "Direct from factory wholesale camping tents. Automatic quick-opening, professional waterproof ratings, and customized OEM service."
+        desc: "Trusted China camping tent factory since 2006. Specializing in high-durability family tents, automatic pole structures, and custom OEM manufacturing for global outdoor brands."
     },
     "Pop-up Tents": {
         filename: "pop-up-tents.html",
-        title: "Wholesale Pop-up & Instant Setup Tents",
+        title: "Wholesale Pop-up Tents Supplier - Instant Setup Solutions",
         header: "Instant Setup Pop-up Tents",
         sub: "Setup in seconds. Ideal for family camping, beach sun shades, and promotional outdoor events.",
-        desc: "Direct from factory wholesale pop-up tents. 2-second setup, windproof folding mechanisms, and bulk export pricing."
+        desc: "Professional pop-up tent manufacturer. Offering bulk supply for quick-open beach tents, instant sun shelters, and lightweight camping tents with custom branding."
     },
     "Changing Tents": {
         filename: "changing-tents.html",
-        title: "Wholesale Portable Privacy Changing & Shower Tents",
+        title: "Portable Privacy Tents & Shower Shelters - Bulk Factory Supply",
         header: "Outdoor Privacy: Dressing & Shower Tents",
         sub: "Heavy-duty pop-up shelters for camping, beach bathing, and mobile toilets. 100% private.",
-        desc: "Direct from factory wholesale changing tents. Automatic pop up dressing rooms, waterproof camping shower tents, and OEM bulk customization."
+        desc: "Leading manufacturer of portable privacy tents. Heavy-duty 210D Oxford dressing rooms and mobile shower shelters. Verified quality for bulk B2B importers."
     },
     "Roof Top Tents": {
         filename: "roof-top-tents.html",
-        title: "Wholesale Aluminum Hard Shell Roof Top Tents",
+        title: "Aluminum Hard Shell Roof Top Tents - China Sourcing Agent",
         header: "Overland Ready: Premium Rooftop Tents",
         sub: "Aerodynamic hard shell designs for 4x4 vehicles. 60-second setup for the ultimate off-road experience.",
-        desc: "Direct from factory wholesale rooftop tents. Aluminum triangle clamshell designs, high waterproof ratings, and bulk supply for overland brands."
+        desc: "B2B supplier of premium aluminum rooftop tents. Clamshell triangle designs, 3000mm+ waterproof index, and bulk manufacturing for overland brands."
     },
     "Beach Tents": {
         filename: "beach-tents.html",
-        title: "Wholesale Beach Tents & Sun Shelters",
+        title: "Bulk Beach Tents & Sun Shelters - UV Protection Factory",
         header: "Premium Sun Protection for Retail",
         sub: "Portable, high-SPF pop-up shelters for families and beachgoers. Lightweight and durable.",
-        desc: "Direct from factory wholesale beach tents. Pop-up instant setup, UV protection fabric, and bulk supply for global importers."
+        desc: "OEM factory for UPF 50+ beach tents and cabanas. Lightweight portable sun shelters and family beach umbrellas for global retailers and wholesalers."
     },
     "Outdoor Furniture": {
         filename: "outdoor-furniture.html",
-        title: "Wholesale Outdoor Furniture & Equipment",
+        title: "Wholesale Outdoor Furniture & Camping Equipment",
         header: "Durable Comfort for Every Campsite",
         sub: "Ergonomic chairs, aluminum tables, and premium camping cots. Built to last in the wild.",
-        desc: "Direct from factory wholesale camping furniture. Lightweight folding chairs, aluminum tables, and OEM outdoor equipment."
+        desc: "China manufacturer of folding camping furniture. High-capacity aluminum chairs, roll-top tables, and lightweight outdoor gear for professional campers."
     },
     "Inflatable Tents": {
         filename: "inflatable-tents.html",
-        title: "Wholesale Inflatable Glamping Tents",
+        title: "Wholesale Inflatable Glamping Tents - Air-Beam Technology",
         header: "The Future of Glamping: Air-Beam Tech",
         sub: "Luxury inflatable houses and professional air shelters. 5-minute setup, 100% waterproof.",
-        desc: "Direct from factory wholesale inflatable tents. Stay-Rigid air beam technology, luxury glamping designs, and full customization."
+        desc: "Pioneering manufacturer of Stay-Rigid air-beam tents. Luxury glamping domes and inflatable family tents for eco-resorts and premium rental businesses."
     }
 };
 

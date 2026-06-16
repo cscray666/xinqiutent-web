@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /assets/pdf/
+Disallow: /temp_images/
+
+Sitemap: https://www.xinqiutent.com/sitemap.xml
