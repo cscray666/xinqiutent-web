@@ -187,7 +187,20 @@ const faqs = [
     { q: "What fabrics and waterproof ratings do you provide?", a: "We offer Oxford, Polyester, and Cotton with PA, PU, or Silicone coatings (300mm - 30,000mm). All seams are heat-taped and windows use waterproof plackets. To ensure your absolute confidence, we provide FREE fabric samples for your pre-production waterproof tests. Mass production only proceeds after your testing is successfully passed." },
     { q: "Do your tents provide professional UV protection?", a: "Yes, we achieve UPF 50+ using Silver, Vinyl, or Titanium Silver coatings (meeting US ASTM D6603 & EU EN 13758). We offer free fabric swatches for your pre-order UV testing to verify compliance before we initiate mass manufacturing." },
     { q: "What is your logistical advantage?", a: "Logistical efficiency is our pride. Our factory is strategically located near Beilun Port (Ningbo); our containers can reach the pier in just 30 minutes, ensuring rapid loading and significantly reducing total transit time." },
-    { q: "What are your internal QC procedures?", a: "We maintain a 0-defect goal. In addition to material audits, we conduct 100% full inspection after assembly for every single unit before packing to ensure structural and aesthetic integrity." }
+    { q: "What are your internal QC procedures?", a: "We maintain a 0-defect goal. In addition to material audits, we conduct 100% full inspection after assembly for every single unit before packing to ensure structural and aesthetic integrity." },
+    { q: "Do you offer full OEM/ODM services?", a: "Absolutely. From custom logos and colors to complete structural redesigns, our technical team can provide CAD previews and material suggestions." },
+    { q: "What is the typical lead time for bulk orders?", a: "For standard OEM orders, our lead time is 30-45 days. Rapid-dispatch models can be ready within 15-25 days depending on the peak season." },
+    { q: "Can I request a sample before placing a bulk order?", a: "Yes, we encourage sampling. Samples usually take 7-10 days, and the cost can be credited back toward your first container-level order." },
+    { q: "Do you provide volume-based discounts?", a: "Yes, we offer competitive tiered pricing. For 1x20GP or 1x40HQ container orders, we provide significant cost-per-unit reductions." },
+    { q: "What is your product warranty policy?", a: "We provide a 1-year limited warranty on manufacturing defects. We also include a 1-2% spare parts kit (zippers, hooks) with each container." },
+    { q: "Can you help with packaging design for retail?", a: "Yes, we offer full design support for color boxes, carry bags with custom instruction manuals, and PDQ display boxes for retailers." },
+    { q: "What is your monthly production capacity?", a: "Our factory currently produces up to 30,000 sets of camping tents per month, ensuring stable supply for large-scale retail promotions." },
+    { q: "How do your tents perform in high winds?", a: "Our structures are wind-tunnel tested to withstand speeds of up to 40-50 km/h (depending on the anchoring system and model)." },
+    { q: "What are your standard payment terms?", a: "Our standard terms are 30% deposit via T/T and 70% balance against the Bill of Lading (B/L). We also accept L/C at sight for large contracts." },
+    { q: "Can I conduct a virtual factory tour or 3rd party audit?", a: "We welcome virtual tours via Zoom/WhatsApp and frequently host 3rd party inspectors from agencies like SGS or TÜV." },
+    { q: "Do you sign NDAs for exclusive designs?", a: "Yes, intellectual property protection is our priority. We sign NDAs to ensure your exclusive ODM designs remain private and secure." },
+    { q: "What type of pole systems do you use?", a: "We specialize in 'Automatic Pole' systems using reinforced fiberglass or aluminum alloys, designed for setup in under 60 seconds." },
+    { q: "Do you offer custom branding on small orders?", a: "Yes, we have specialized printing equipment to support logo customization even on trial-batch orders." }
 ];
 
 function generateFAQSection() {
