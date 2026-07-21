@@ -17,17 +17,37 @@ const nav = `
 
 const footer = `
     <footer class="bg-gray-900 text-white py-20 border-t border-slate-800">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-3 gap-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-3 gap-16 text-center md:text-left">
             <div>
                 <span class="text-3xl font-bold">XINQIU TENT</span>
-                <p class="mt-6 opacity-60 text-sm leading-relaxed mb-6">Ningbo Xinqiu Travelling Products Co., Ltd. - Your trusted B2B partner in the wild since 2006.</p>
-                <div class="flex space-x-4 text-xl text-slate-400">
-                    <a href="https://www.linkedin.com/company/ningbo-xinqiu-travelling-products-co-ltd/" target="_blank" class="hover:text-blue-500 transition" title="LinkedIn Company Page"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://www.linkedin.com/in/shichen-cheng" target="_blank" class="hover:text-blue-400 transition" title="LinkedIn Personal Profile"><i class="far fa-id-card"></i></a>
-                    <a href="https://www.instagram.com/windvalleyoutdoor/" target="_blank" class="hover:text-pink-500 transition" title="Instagram Business Page"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.instagram.com/crsacy?igsh=MWF4eWpsZjduZXJ3dw%3D%3D&utm_source=qr" target="_blank" class="hover:text-pink-400 transition" title="Instagram Personal Profile"><i class="far fa-user-circle"></i></a>
-                    <a href="https://www.tiktok.com/@windvalleyoutdoor?_r=1&_t=ZT-974T2xMVl1B" target="_blank" class="hover:text-slate-100 transition" title="TikTok Page"><i class="fab fa-tiktok"></i></a>
-                    <a href="https://www.facebook.com/share/18nmvYHjVt/?mibextid=wwXIfr" target="_blank" class="hover:text-blue-600 transition" title="Facebook Page"><i class="fab fa-facebook"></i></a>
+                <p class="mt-6 opacity-60 text-sm leading-relaxed mb-8">Ningbo Xinqiu Travelling Products Co., Ltd. - Your trusted B2B partner in the wild since 2006.</p>
+                
+                <h5 class="text-xs font-bold uppercase tracking-[0.2em] text-blue-500 mb-6">Connect with us (Official IDs)</h5>
+                <div class="space-y-4">
+                    <a href="https://www.linkedin.com/company/ningbo-xinqiu-travelling-products-co-ltd/" target="_blank" class="flex items-center gap-3 hover:text-blue-500 transition group">
+                        <i class="fab fa-linkedin text-xl opacity-60 group-hover:opacity-100"></i>
+                        <span class="text-xs font-medium">LinkedIn: Ningbo Xinqiu Travelling Products</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/shichen-cheng" target="_blank" class="flex items-center gap-3 hover:text-blue-400 transition group">
+                        <i class="far fa-id-card text-xl opacity-60 group-hover:opacity-100"></i>
+                        <span class="text-xs font-medium">LinkedIn (Ray): shichen cheng</span>
+                    </a>
+                    <a href="https://www.instagram.com/windvalleyoutdoor/" target="_blank" class="flex items-center gap-3 hover:text-pink-500 transition group">
+                        <i class="fab fa-instagram text-xl opacity-60 group-hover:opacity-100"></i>
+                        <span class="text-xs font-medium">Instagram (Business): windvalleyoutdoor</span>
+                    </a>
+                    <a href="https://www.instagram.com/crsacy?igsh=MWF4eWpsZjduZXJ3dw%3D%3D&utm_source=qr" target="_blank" class="flex items-center gap-3 hover:text-pink-400 transition group">
+                        <i class="far fa-user-circle text-xl opacity-60 group-hover:opacity-100"></i>
+                        <span class="text-xs font-medium">Instagram (Personal): crsacy</span>
+                    </a>
+                    <a href="https://www.tiktok.com/@xinqiu_tent" target="_blank" class="flex items-center gap-3 hover:text-white transition group">
+                        <i class="fab fa-tiktok text-xl opacity-60 group-hover:opacity-100"></i>
+                        <span class="text-xs font-medium">TikTok: xinqiu_tent</span>
+                    </a>
+                    <a href="https://www.facebook.com/share/18nmvYHjVt/?mibextid=wwXIfr" target="_blank" class="flex items-center gap-3 hover:text-blue-600 transition group">
+                        <i class="fab fa-facebook text-xl opacity-60 group-hover:opacity-100"></i>
+                        <span class="text-xs font-medium">Facebook: windvalleyoutdoor</span>
+                    </a>
                 </div>
             </div>
             <div>
@@ -50,10 +70,60 @@ const footer = `
         </div>
     </footer>
     <!-- WhatsApp Floating Button -->
-    <a href="https://wa.me/8618989341689" target="_blank" class="fixed bottom-8 right-8 z-[100] bg-green-500 text-white p-4 rounded-full shadow-2xl hover:bg-green-600 transition-all group flex items-center space-x-2">
-        <i class="fab fa-whatsapp text-2xl"></i>
-        <span class="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-500 ease-in-out whitespace-nowrap font-bold">Chat with Factory Manager</span>
-    </a>
+    <div class="fixed bottom-8 right-8 z-[100] flex flex-col gap-4 items-end">
+        <!-- Technical Catalog Sticky Button -->
+        <button onclick="openCatalogModal()" class="bg-blue-600 text-white p-4 rounded-full shadow-2xl hover:bg-blue-700 transition-all group flex items-center space-x-2">
+            <i class="fas fa-file-pdf text-2xl"></i>
+            <span class="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-500 ease-in-out whitespace-nowrap font-bold">Download 2026 Tech Catalog</span>
+        </button>
+        <!-- WhatsApp -->
+        <a href="https://wa.me/8618989341689" target="_blank" class="bg-green-500 text-white p-4 rounded-full shadow-2xl hover:bg-green-600 transition-all group flex items-center space-x-2">
+            <i class="fab fa-whatsapp text-2xl"></i>
+            <span class="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-500 ease-in-out whitespace-nowrap font-bold">Chat with Factory Manager</span>
+        </a>
+    </div>
+
+    <!-- Gated Catalog Modal -->
+    <div id="catalogModal" class="fixed inset-0 z-[10000] hidden flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm">
+        <div class="bg-white rounded-3xl max-w-lg w-full overflow-hidden shadow-2xl animate-in fade-in zoom-in duration-300">
+            <div class="bg-blue-900 p-8 text-white relative">
+                <button onclick="closeCatalogModal()" class="absolute top-6 right-6 text-2xl opacity-60 hover:opacity-100 transition">&times;</button>
+                <h3 class="text-3xl font-bold mb-2">Technical Catalog</h3>
+                <p class="opacity-80">Please provide your details to access our 2026 B2B Technical Specs.</p>
+            </div>
+            <div class="p-8">
+                <form action="https://formsubmit.co/ray@xinqiu-tent.com" method="POST" class="space-y-4">
+                    <input type="hidden" name="_subject" value="NEW CATALOG DOWNLOAD: Ningbo Xinqiu 2026">
+                    <input type="hidden" name="_next" value="https://www.xinqiutent.com/catalog-success.html">
+                    <input type="hidden" name="_captcha" value="false">
+                    <div>
+                        <label class="block text-xs font-bold text-gray-500 uppercase tracking-widest mb-1">Company Name *</label>
+                        <input type="text" name="company" required class="w-full px-4 py-3 rounded-xl border focus:ring-2 focus:ring-blue-600 outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-gray-500 uppercase tracking-widest mb-1">Business Email *</label>
+                        <input type="email" name="email" required class="w-full px-4 py-3 rounded-xl border focus:ring-2 focus:ring-blue-600 outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-gray-500 uppercase tracking-widest mb-1">WhatsApp / Phone *</label>
+                        <input type="text" name="whatsapp" required class="w-full px-4 py-3 rounded-xl border focus:ring-2 focus:ring-blue-600 outline-none">
+                    </div>
+                    <button type="submit" class="w-full bg-blue-600 text-white font-bold py-4 rounded-xl hover:bg-blue-700 transition shadow-lg mt-4">Verify & Download Catalog</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openCatalogModal() {
+            document.getElementById('catalogModal').classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeCatalogModal() {
+            document.getElementById('catalogModal').classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }
+    </script>
 `;
 
 const trustBar = `
@@ -91,6 +161,7 @@ function getHead(title, description) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${title} - Premium OEM Factory | Ningbo Xinqiu</title>
     <meta name="description" content="${description}">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
     
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-BBBEBVF9BX"></script>
@@ -111,7 +182,8 @@ function getHead(title, description) {
     <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-20 items-center">
-                <div class="flex-shrink-0 flex items-center">
+                <div class="flex-shrink-0 flex items-center gap-4">
+                    <img src="assets/images/favicon.png" class="h-10 w-10 rounded-full shadow-sm" alt="Xinqiu Logo">
                     <a href="index.html" class="text-2xl font-bold text-blue-900">XINQIU <span class="text-blue-600">TENT</span></a>
                 </div>
                 ${nav}
@@ -154,7 +226,9 @@ function generateProductCard(p, index) {
                                     <div class="text-white text-xs font-bold whitespace-nowrap">${p.material || 'Heavy Duty'}</div>
                                 </div>
                             </div>
-                            <p class="text-slate-500 text-[10px] italic mb-8">* Full OEM/ODM customization available. Contact for CAD preview.</p>
+                            <div class="flex items-center gap-2 text-blue-400/80 text-[10px] font-bold uppercase tracking-widest mb-8">
+                                <i class="fas fa-tools"></i> Fully Customizable: Color / Logo / Fabric
+                            </div>
                         </div>
                         
                         <a href="index.html#contact" class="w-full py-4 rounded-xl border-2 border-blue-500/30 text-blue-400 font-black text-xs uppercase tracking-widest flex items-center justify-center gap-3 hover:bg-blue-600 hover:text-white hover:border-blue-600 transition-all duration-300">
