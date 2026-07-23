@@ -12,18 +12,18 @@
         "url": "media-output/img-mru1chyd-3841e33d.png",
         "naturalWidth": 1024,
         "naturalHeight": 1536,
-        "x": 0,
-        "y": 0,
+        "x": 3192,
+        "y": 4480,
         "displayWidth": 1024,
         "displayHeight": 1536,
-        "zIndex": 0
+        "zIndex": 3
       },
       {
         "url": "media-output/img-mru1cyd9-131cfd69.png",
         "naturalWidth": 1024,
         "naturalHeight": 1536,
         "x": 0,
-        "y": 1576,
+        "y": 4480,
         "displayWidth": 1024,
         "displayHeight": 1536,
         "zIndex": 0
@@ -32,21 +32,21 @@
         "url": "media-output/img-mru1osut-38848e17.png",
         "naturalWidth": 1024,
         "naturalHeight": 1536,
-        "x": 0,
-        "y": 3152,
+        "x": 1064,
+        "y": 4480,
         "displayWidth": 1024,
         "displayHeight": 1536,
-        "zIndex": 0
+        "zIndex": 1
       },
       {
         "url": "media-output/img-mru1p9bb-4a6aaf5a.png",
         "naturalWidth": 1024,
         "naturalHeight": 1536,
-        "x": 0,
-        "y": 4728,
+        "x": 2128,
+        "y": 4480,
         "displayWidth": 1024,
         "displayHeight": 1536,
-        "zIndex": 0
+        "zIndex": 2
       }
     ],
     "imageCdnUrlByUrl": {
@@ -55,7 +55,7 @@
       "media-output/img-mru1osut-38848e17.png": "https://sc02.alicdn.com/kf/A14e8c6842c3340bcb0771db6dc3af7016.png",
       "media-output/img-mru1p9bb-4a6aaf5a.png": "https://sc02.alicdn.com/kf/A5225d87061af4a2bb9b7b59698074d56P.png"
     },
-    "selectedImageUrl": "media-output/img-mru1p9bb-4a6aaf5a.png",
-    "updatedAt": 1784601580500
+    "selectedImageUrl": "media-output/img-mru1chyd-3841e33d.png",
+    "updatedAt": 1784788101639
   }
 }
