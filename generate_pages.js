@@ -168,10 +168,12 @@ function getHead(title, description) {
       gtag('config', 'G-BBBEBVF9BX');
     </script>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" media="print" onload="this.media='all'">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap');
         body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        img { aspect-ratio: auto; }
+        .lazy-img { loading: lazy; }
     </style>
 </head>
 <body class="bg-gray-50">
@@ -198,7 +200,7 @@ function generateProductCard(p, index) {
                 <!-- B2B Expert Style -->
                 <div class="col-span-full lg:col-span-2 bg-slate-900 rounded-[2rem] overflow-hidden flex flex-col md:flex-row shadow-2xl border border-slate-800 group transition-all duration-500 hover:border-blue-500/50">
                     <div class="md:w-1/2 h-[400px] md:h-auto bg-slate-800/50 p-8 flex items-center justify-center">
-                        <img src="${p.img.replace('_200x200.jpg', '_640x640.jpg')}" alt="${cleanName}" class="w-full h-full object-contain group-hover:scale-105 transition duration-700">
+                        <img src="${p.img.replace('_200x200.jpg', '_640x640.jpg')}" alt="${cleanName}" loading="lazy" decoding="async" class="w-full h-full object-contain group-hover:scale-105 transition duration-700">
                     </div>
                     <div class="md:w-1/2 p-10 flex flex-col justify-between">
                         <div>
@@ -238,7 +240,7 @@ function generateProductCard(p, index) {
     return `
                 <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
                     <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
-                        <img src="${p.img.replace('_200x200.jpg', '_480x480.jpg')}" alt="${cleanName}" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
+                        <img src="${p.img.replace('_200x200.jpg', '_480x480.jpg')}" alt="${cleanName}" loading="lazy" decoding="async" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">${cleanName}</h3>
                     <p class="text-gray-500 text-xs mb-4">${p.price} | ${p.moq}</p>
