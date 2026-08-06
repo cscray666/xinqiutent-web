@@ -1,4 +1,4 @@
-const fs = require('fs');
+﻿const fs = require('fs');
 
 const data = JSON.parse(fs.readFileSync('scraped_products_full.json', 'utf8'));
 
