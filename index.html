@@ -73,14 +73,29 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero-bg h-screen flex items-center justify-center text-center text-white pt-20">
-        <div class="max-w-4xl px-4">
-            <h1 class="text-5xl md:text-7xl font-bold mb-6">Premium <span class="text-blue-400">OEM/ODM</span> Factory for <br>Wholesale Camping Tents</h1>
-            <p class="text-xl md:text-2xl mb-10 opacity-90 leading-relaxed">20+ Years Excellence in Outdoor Gear Manufacturing. <br>BSCI Certified & Reliable Supplier for Fortune 500 Retailers.</p>
-            <div class="flex flex-col md:flex-row justify-center gap-4">
-                <button onclick="openCatalogModal()" class="bg-white text-blue-900 px-8 py-4 rounded-xl font-bold text-lg hover:bg-gray-100 transition shadow-lg">Download 2026 Catalog</button>
-                <a href="#contact" class="bg-blue-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-blue-700 transition shadow-lg">Request a Factory Tour</a>
+    <!-- Hero Section (Video Background - LuxoPack Style) -->
+    <section id="home" class="relative h-screen flex items-center justify-center text-center text-white overflow-hidden">
+        <!-- Background Video Loop -->
+        <video autoplay muted loop playsinline preload="auto" poster="assets/images/hero.webp" class="absolute inset-0 w-full h-full object-cover">
+            <source src="assets/videos/factory-intro-720p.mp4" type="video/mp4">
+        </video>
+        <!-- Dark Gradient Overlay (LuxoPack: left-dark to right-transparent) -->
+        <div class="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/60 to-slate-900/20"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-slate-900/40"></div>
+
+        <div class="relative max-w-5xl px-4 py-20">
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">Premium <span class="text-blue-400">OEM/ODM</span> Factory for <br class="hidden md:block">Wholesale Camping Tents</h1>
+            <p class="text-lg md:text-2xl mb-10 opacity-95 leading-relaxed">20+ Years Excellence in Outdoor Gear Manufacturing. <br>BSCI Certified & Reliable Supplier for Fortune 500 Retailers.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <button onclick="openCatalogModal()" class="bg-white text-blue-900 px-8 py-4 rounded-xl font-bold text-lg hover:bg-gray-100 transition shadow-xl">Download 2026 Catalog</button>
+                <a href="#contact" class="bg-blue-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-blue-700 transition shadow-xl">Request a Factory Tour</a>
+            </div>
+            <!-- Quick Trust Tags (LuxoPack style) -->
+            <div class="flex flex-wrap justify-center gap-3 mt-12 text-xs font-semibold uppercase tracking-widest opacity-80">
+                <span class="px-4 py-2 bg-white/10 rounded-full border border-white/20">Est. 2006</span>
+                <span class="px-4 py-2 bg-white/10 rounded-full border border-white/20">BSCI Certified</span>
+                <span class="px-4 py-2 bg-white/10 rounded-full border border-white/20">5,500㎡ Facility</span>
+                <span class="px-4 py-2 bg-white/10 rounded-full border border-white/20">80+ Countries</span>
             </div>
         </div>
     </section>
@@ -730,6 +745,30 @@
             document.getElementById('catalogModal').classList.add('hidden');
             document.body.style.overflow = 'auto';
         }
+    </script>
+
+    <!-- Video Lazy-Load Optimizer: only fetch video when hero is in view -->
+    <script>
+        (function () {
+            var v = document.querySelector('video');
+            if (!v) return;
+            // Start playback when the hero enters the viewport (or immediately if already visible)
+            if (document.readyState === 'complete' || document.readyState === 'interactive') {
+                v.play().catch(function () {});
+            }
+            if ('IntersectionObserver' in window) {
+                var obs = new IntersectionObserver(function (entries) {
+                    entries.forEach(function (e) {
+                        if (e.isIntersecting) {
+                            v.play().catch(function () {});
+                        } else {
+                            v.pause();
+                        }
+                    });
+                }, { threshold: 0.1 });
+                obs.observe(v);
+            }
+        })();
     </script>
 
 </body>
