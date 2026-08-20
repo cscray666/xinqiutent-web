@@ -1,7 +1,8 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="google-site-verification" content="9C2URH4zAkqWWbc26nGTGhG9UqG33IqYqkDlfxK7gU4" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Industry News & B2B Tent Market Insights | Ningbo Xinqiu Tents</title>
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
@@ -17,6 +18,7 @@
 
       gtag('config', 'G-BBBEBVF9BX');
     </script>
+    <script src="assets/js/tracking.js" defer></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -611,17 +613,135 @@
             }
         };
 
+        // ===== Article CTA Block (Lead Capture) =====
+        function buildCTA(articleTitle) {
+            return `
+            <div class="mt-16 pt-12 border-t-2 border-gray-100">
+                <div class="bg-gradient-to-br from-blue-900 to-slate-900 rounded-3xl p-8 md:p-12 text-white shadow-2xl">
+                    <div class="text-xs uppercase tracking-[0.25em] text-blue-400 font-bold mb-4">Next Step for Buyers</div>
+                    <h2 class="text-2xl md:text-3xl font-bold mb-4 leading-tight">Verify Our Specs Before You Commit</h2>
+                    <p class="text-blue-100 mb-8 leading-relaxed">
+                        We supply <strong class="text-white">free fabric swatches and full test data</strong> so your team can validate waterproofing, wind resistance, and UV performance before bulk production. BSCI certified factory, est. 2006, serving 80+ countries.
+                    </p>
+                    <div class="grid md:grid-cols-3 gap-4">
+                        <a href="index.html?utm_source=article&utm_medium=cta&utm_campaign=sample_request#contact"
+                           class="bg-white text-blue-900 px-6 py-4 rounded-xl font-bold text-center hover:bg-blue-50 transition shadow-lg">
+                            <i class="fas fa-vial mr-2"></i> Request Free Swatches
+                        </a>
+                        <a href="index.html?utm_source=article&utm_medium=cta&utm_campaign=catalog_download#products"
+                           class="bg-blue-600 text-white px-6 py-4 rounded-xl font-bold text-center hover:bg-blue-500 transition shadow-lg">
+                            <i class="fas fa-file-download mr-2"></i> 2026 Technical Catalog
+                        </a>
+                        <a href="https://wa.me/8618989341689?text=${encodeURIComponent('Hi, I read your article: ' + articleTitle + '. I would like to discuss a bulk order.')}"
+                           target="_blank" rel="noopener"
+                           class="bg-green-500 text-white px-6 py-4 rounded-xl font-bold text-center hover:bg-green-400 transition shadow-lg">
+                            <i class="fab fa-whatsapp mr-2"></i> Chat with Engineer
+                        </a>
+                    </div>
+                    <div class="flex flex-wrap gap-x-6 gap-y-2 mt-8 pt-8 border-t border-white/10 text-xs uppercase tracking-widest text-blue-300">
+                        <span><i class="fas fa-check-circle mr-2"></i>BSCI Certified</span>
+                        <span><i class="fas fa-check-circle mr-2"></i>Low MOQ Trial Orders</span>
+                        <span><i class="fas fa-check-circle mr-2"></i>OEM / ODM</span>
+                        <span><i class="fas fa-check-circle mr-2"></i>Est. 2006</span>
+                    </div>
+                </div>
+            </div>`;
+        }
+
+        // ===== Related Articles (keeps readers on-site) =====
+        function buildRelated(currentId) {
+            const ids = Object.keys(newsData).filter(k => k !== String(currentId));
+            ids.sort((a, b) => new Date(newsData[b].date) - new Date(newsData[a].date));
+            const picks = ids.slice(0, 4);
+            if (!picks.length) return '';
+            return `
+            <div class="mt-12">
+                <h3 class="text-xl font-bold text-blue-900 mb-6 uppercase tracking-wider text-sm">More Technical Intelligence</h3>
+                <div class="grid md:grid-cols-2 gap-4">
+                    ${picks.map(id => `
+                        <a href="news.html?id=${id}" class="block p-5 bg-gray-50 rounded-2xl border hover:border-blue-400 hover:shadow-md transition group">
+                            <div class="text-xs text-blue-600 font-bold mb-2">${newsData[id].date}</div>
+                            <div class="font-bold text-gray-800 group-hover:text-blue-700 leading-snug text-sm">${newsData[id].title}</div>
+                        </a>`).join('')}
+                </div>
+                <div class="text-center mt-8">
+                    <a href="index.html#news" class="text-blue-600 font-bold hover:underline text-sm uppercase tracking-wider">View All Articles <i class="fas fa-arrow-right ml-1"></i></a>
+                </div>
+            </div>`;
+        }
+
+        // ===== Dynamic SEO: title / meta / canonical / JSON-LD =====
+        function applySEO(id, news) {
+            const canonicalUrl = 'https://www.xinqiutent.com/news.html?id=' + id;
+            const plain = news.body.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+            const desc = plain.substring(0, 155).trim() + '...';
+
+            document.title = news.title + ' | Ningbo Xinqiu Tent Factory';
+
+            function setMeta(attr, key, val) {
+                let el = document.querySelector(`meta[${attr}="${key}"]`);
+                if (!el) { el = document.createElement('meta'); el.setAttribute(attr, key); document.head.appendChild(el); }
+                el.setAttribute('content', val);
+            }
+            setMeta('name', 'description', desc);
+            setMeta('property', 'og:title', news.title);
+            setMeta('property', 'og:description', desc);
+            setMeta('property', 'og:type', 'article');
+            setMeta('property', 'og:url', canonicalUrl);
+            setMeta('property', 'og:image', news.image.startsWith('http') ? news.image : 'https://www.xinqiutent.com/' + news.image);
+            setMeta('name', 'twitter:card', 'summary_large_image');
+
+            let link = document.querySelector('link[rel="canonical"]');
+            if (!link) { link = document.createElement('link'); link.rel = 'canonical'; document.head.appendChild(link); }
+            link.href = canonicalUrl;
+
+            const ld = document.createElement('script');
+            ld.type = 'application/ld+json';
+            ld.textContent = JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "Article",
+                "headline": news.title,
+                "datePublished": new Date(news.date).toISOString().split('T')[0],
+                "image": news.image.startsWith('http') ? news.image : 'https://www.xinqiutent.com/' + news.image,
+                "author": { "@type": "Organization", "name": "Ningbo Xinqiu Travelling Products Co., Ltd." },
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "Ningbo Xinqiu Travelling Products Co., Ltd.",
+                    "logo": { "@type": "ImageObject", "url": "https://www.xinqiutent.com/assets/images/favicon.png" }
+                },
+                "mainEntityOfPage": { "@type": "WebPage", "@id": canonicalUrl }
+            });
+            document.head.appendChild(ld);
+        }
+
         if (newsData[newsId]) {
             const news = newsData[newsId];
+            applySEO(newsId, news);
             content.innerHTML = `
                 <div class="text-blue-600 font-bold mb-4 text-center">${news.date}</div>
                 <h1 class="text-4xl md:text-5xl font-bold text-blue-900 mb-12 leading-tight text-center">${news.title}</h1>
                 <div class="prose prose-lg max-w-none text-gray-700">
                     ${news.body}
                 </div>
+                ${buildCTA(news.title)}
+                ${buildRelated(newsId)}
             `;
         } else {
-            content.innerHTML = `<h1 class="text-3xl font-bold text-center">News article not found.</h1><a href="index.html" class="text-blue-600 mt-8 block text-center font-bold">Return to Home</a>`;
+            // No ?id= param → render a full article index (crawlable hub page)
+            const ids = Object.keys(newsData).sort((a, b) => new Date(newsData[b].date) - new Date(newsData[a].date));
+            document.title = 'Tent Manufacturing Intelligence: ' + ids.length + ' Technical Articles | Ningbo Xinqiu';
+            content.innerHTML = `
+                <h1 class="text-4xl md:text-5xl font-bold text-blue-900 mb-4 leading-tight text-center">Technical Intelligence Library</h1>
+                <p class="text-center text-gray-500 mb-12 text-lg">${ids.length} in-depth articles on tent manufacturing, fabric engineering, compliance and B2B sourcing.</p>
+                <div class="grid md:grid-cols-2 gap-5">
+                    ${ids.map(id => `
+                        <a href="news.html?id=${id}" class="block p-6 bg-gray-50 rounded-2xl border hover:border-blue-400 hover:shadow-lg transition group">
+                            <div class="text-xs text-blue-600 font-bold mb-2">${newsData[id].date}</div>
+                            <div class="font-bold text-gray-800 group-hover:text-blue-700 leading-snug">${newsData[id].title}</div>
+                        </a>`).join('')}
+                </div>
+                ${buildCTA('your technical library')}
+            `;
         }
     </script>
 </body>

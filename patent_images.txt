@@ -1,0 +1,31 @@
+# 专利 CN223410579U（一种多功能户外露营帐篷）附图图片 URL 清单
+# 提取日期: 2026-08-11
+# 来源: Espacenet (https://worldwide.espacenet.com)
+# 说明: Google Patents (patents.google.com/patent/CN223410579U/zh) 该专利页面只有文字(摘要/描述/权利要求)，
+#       无 Drawings 附图区块、无 patentimages.storage.googleapis.com 图片请求，因此无 img-0001.png 式单图 URL。
+#       以下 URL 均已在 Espacenet 实测可用；图1-图4 经渲染确认。
+
+# ---- 附图图片 ----
+
+# 图1（摘要附图 / 帐篷3D结构图, JPG，直接可看）
+https://worldwide.espacenet.com/espacenetImage.jpg?flavour=firstPageClipping&locale=en_EP&FT=D&date=20251003&CC=CN&NR=223410579U&KC=U
+
+# 附图总览页（图1-图4 全部附图，Espacenet 马赛克 PDF，单页含 2 张附图页）
+https://worldwide.espacenet.com/data/espacenetDocument.pdf?flavour=phantomMosaics&locale=en_EP&FT=D&date=20251003&CC=CN&NR=223410579U&KC=U&pageNumber=1
+
+# 附图第1页（原始文件第6页：图1、图2，PDF）
+https://worldwide.espacenet.com/data/espacenetDocument.pdf?flavour=plainPage&locale=en_EP&FT=D&date=20251003&CC=CN&NR=223410579U&KC=U&pageNumber=6
+
+# 附图第2页（原始文件第7页：图3、图4，PDF）
+https://worldwide.espacenet.com/data/espacenetDocument.pdf?flavour=plainPage&locale=en_EP&FT=D&date=20251003&CC=CN&NR=223410579U&KC=U&pageNumber=7
+
+# ---- 专利 PDF 下载链接 ----
+
+# 完整专利文档 PDF（7页：书目/权利要求/描述/附图，Espacenet 官方"下载"链接）
+https://worldwide.espacenet.com/data/espacenetDocument.pdf?ND=3&flavour=trueFull&locale=en_EP&FT=D&date=20251003&CC=CN&NR=223410579U&KC=U&popup=true
+
+# 附图第1页打印版 PDF（pageNumber 可换成 1-7 获取任意页）
+https://worldwide.espacenet.com/data/espacenetDocument.pdf?ND=3&flavour=printablePage&locale=en_EP&FT=D&date=20251003&CC=CN&NR=223410579U&KC=U&pageNumber=6
+
+# 附图第2页打印版 PDF
+https://worldwide.espacenet.com/data/espacenetDocument.pdf?ND=3&flavour=printablePage&locale=en_EP&FT=D&date=20251003&CC=CN&NR=223410579U&KC=U&pageNumber=7
