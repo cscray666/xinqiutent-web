@@ -672,7 +672,7 @@
 
         // ===== Dynamic SEO: title / meta / canonical / JSON-LD =====
         function applySEO(id, news) {
-            const canonicalUrl = 'https://www.xinqiutent.com/news.html?id=' + id;
+            const canonicalUrl = 'https://xinqiutent.com/news.html?id=' + id;
             const plain = news.body.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
             const desc = plain.substring(0, 155).trim() + '...';
 
@@ -688,7 +688,7 @@
             setMeta('property', 'og:description', desc);
             setMeta('property', 'og:type', 'article');
             setMeta('property', 'og:url', canonicalUrl);
-            setMeta('property', 'og:image', news.image.startsWith('http') ? news.image : 'https://www.xinqiutent.com/' + news.image);
+            setMeta('property', 'og:image', news.image.startsWith('http') ? news.image : 'https://xinqiutent.com/' + news.image);
             setMeta('name', 'twitter:card', 'summary_large_image');
 
             let link = document.querySelector('link[rel="canonical"]');
@@ -702,12 +702,12 @@
                 "@type": "Article",
                 "headline": news.title,
                 "datePublished": new Date(news.date).toISOString().split('T')[0],
-                "image": news.image.startsWith('http') ? news.image : 'https://www.xinqiutent.com/' + news.image,
+                "image": news.image.startsWith('http') ? news.image : 'https://xinqiutent.com/' + news.image,
                 "author": { "@type": "Organization", "name": "Ningbo Xinqiu Travelling Products Co., Ltd." },
                 "publisher": {
                     "@type": "Organization",
                     "name": "Ningbo Xinqiu Travelling Products Co., Ltd.",
-                    "logo": { "@type": "ImageObject", "url": "https://www.xinqiutent.com/assets/images/favicon.png" }
+                    "logo": { "@type": "ImageObject", "url": "https://xinqiutent.com/assets/images/favicon.png" }
                 },
                 "mainEntityOfPage": { "@type": "WebPage", "@id": canonicalUrl }
             });

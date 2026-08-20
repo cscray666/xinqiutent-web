@@ -28,4 +28,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://www.xinqiutent.com/sitemap.xml
+Sitemap: https://xinqiutent.com/sitemap.xml
