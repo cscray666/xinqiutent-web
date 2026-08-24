@@ -11,7 +11,10 @@
 - **Location:** Ningbo, Zhejiang, China — approximately 30 minutes from Beilun Port
 - **Manufacturing bases:** Ningbo — 3,300㎡ own plant (BSCI audited; R&D, sampling, technical products, final QC). Anhui — 15,000㎡ partner capacity for high-volume runs under Xinqiu quality control. Total 18,300㎡; the partner facilities are not owned by Xinqiu.
 - **Monthly capacity:** approximately 20,000 tents
-- **Audits held:** BSCI social compliance audit (Ningbo plant); SGS third-party factory inspection. Reports available to buyers on request.
+- **Audits held (both independently verifiable):**
+  - **amfori BSCI Social Audit — Manufacturing**, Full Monitoring. amfori ID 156-060372-000, site ID 156-060372-001. Audited 26 Dec 2025 by SGS as amfori monitoring partner; valid to 04 Jan 2027. Site: Ningbo plant, 3rd Floor No. 1 Building 2, 208 Longjiaoshan Road, Beilun District, Ningbo. Note that amfori BSCI is a social monitoring programme, not a certification — amfori itself states it does not issue pass/fail certificates.
+  - **SGS Production & Trading Assessment**, report number 478583460_P+T, issued 04 Dec 2025, valid to 04 Dec 2026. Independently verifiable at auditedsupplier.sgsgroup.com.cn using the report number.
+  - Full reports, including all performance-area ratings, are provided to serious buyers on request.
 - **Product testing available:** ISO 811 hydrostatic head, ISO 13937 tear strength, CPAI-84 / NFPA 701 flame retardancy, EN71 for children's play tents. These are order-specific third-party test reports arranged per order, not factory-held certificates.
 - **Business model:** OEM / ODM manufacturing (factory-direct, not a trading company)
 - **Export markets:** worldwide, with approximately 70% of export volume to Europe; remainder to North America, Oceania, Southeast Asia and the Middle East
