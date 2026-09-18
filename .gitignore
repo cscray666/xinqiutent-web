@@ -35,6 +35,12 @@
 /shots/
 /tsdr.html
 
+# --- 内部任务配置与运行日志 ---
+# GitHub Pages does not serve dot-directories, so this was never reachable on
+# the live site — but it sat in the public repository (job prompts, run logs,
+# throwaway query scripts), where anyone could clone it.
+/.accio/
+
 # --- 系统噪音 ---
 *.tmp
 Thumbs.db
