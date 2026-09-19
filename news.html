@@ -6,6 +6,14 @@
     <link rel="describedby" type="text/markdown" href="https://xinqiutent.com/llms.txt">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Industry News & B2B Tent Market Insights | Ningbo Xinqiu Tents</title>
+    <!-- This page renders every article client-side and injects its own tags at
+         runtime, so a crawler that does not execute JavaScript sees none of it.
+         The same articles now exist as static pages under /news/, which is what
+         should rank. Marking this shell noindex,follow removes the duplicate-
+         content risk while still passing link equity to the static library.
+         (Do not "fix" this by adding hreflang here: there is no French twin.) -->
+    <link rel="canonical" href="https://xinqiutent.com/news/">
+    <meta name="robots" content="noindex, follow">
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
     <meta name="description" content="Get the latest news on camping tent manufacturing, inflatable tent trends, and outdoor gear supply chain updates from Ningbo Xinqiu Factory.">
     <meta name="keywords" content="Tent Industry News, Camping Tent Factory Updates, Inflatable Glamping Trends, Outdoor Gear Manufacturing">
