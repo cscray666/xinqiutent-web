@@ -1,8 +1,9 @@
-/* Font Awesome 6.0.0 - subsetted to the icons used by xinqiutent.com */
+/* Font Awesome 6.0.0 - subsetted to the icons xinqiutent.com really uses */
 @font-face{font-family:"Font Awesome 6 Free";font-style:normal;font-weight:900;font-display:swap;src:url("/assets/css/fa/fa-solid-900.subset.woff2") format("woff2");}
-.fa,.fas,.far,.fab,.fal,.fad{font-family:"Font Awesome 6 Free";font-style:normal;font-weight:900;display:inline-block;line-height:1;-webkit-font-smoothing:antialiased;overflow:visible}
-.fa,.fas{font-weight:900}
-.far{font-weight:400}
+@font-face{font-family:"Font Awesome 6 Brands";font-style:normal;font-weight:400;font-display:swap;src:url("/assets/css/fa/fa-brands-400.subset.woff2") format("woff2");}
+.fa,.fas,.far,.fab,.fal,.fad{font-style:normal;display:inline-block;line-height:1;-webkit-font-smoothing:antialiased;overflow:visible}
+.fa,.fas{font-family:"Font Awesome 6 Free";font-weight:900}
+.far{font-family:"Font Awesome 6 Free";font-weight:400}
 .fab{font-family:"Font Awesome 6 Brands";font-weight:400}
 .fa-arrow-left:before{content:"\f060"}
 .fa-arrow-right:before{content:"\f061"}
@@ -41,4 +42,4 @@
 .fa-vial:before{content:"\f492"}
 .fa-whatsapp:before{content:"\f232"}
 .fa-wind:before{content:"\f72e"}
-.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-lg{font-size:1.25em}
+.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-lg{font-size:1.25em}.fa-spin{animation:fa-spin 2s infinite linear}@keyframes fa-spin{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
