@@ -61,6 +61,24 @@
     </script>
     <script src="/assets/js/tracking.js" defer></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                black: '#0B0F17',
+                dark: '#0E131E',
+                card: '#131926',
+                cardHover: '#161F30',
+                amber: '#FF7A00',
+                gold: '#F59E0B'
+              }
+            }
+          }
+        }
+      }
+    </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
@@ -75,20 +93,20 @@
     <link rel="alternate" hreflang="x-default" href="https://xinqiutent.com/commercial-event-tents.html">
     <!-- hreflang:end -->
 </head>
-<body class="bg-gray-50">
+<body class="bg-[#0B0F17] text-slate-100 selection:bg-amber-500 selection:text-black">
         <!-- Navigation -->
-    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b">
+    <nav class="fixed w-full z-50 bg-[#0B0F17]/90 backdrop-blur-md border-b border-slate-800/80">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-20 items-center">
                 <div class="flex-shrink-0 flex items-center">
-                    <a href="index.html" class="text-2xl font-bold text-blue-900">XINQIU <span class="text-blue-600">TENT</span></a>
+                    <a href="index.html" class="text-2xl font-bold text-white tracking-wide">XINQIU <span class="text-amber-400">TENT</span></a>
                 </div>
                 <div class="hidden md:flex space-x-6 text-xs font-semibold uppercase tracking-wider items-center">
-                    <a href="index.html" class="hover:text-blue-600 transition">Inicio</a>
-                    <a href="inflatable-tents.html" class="hover:text-blue-600 transition">Inflatable</a>
-                    <a href="about.html" class="hover:text-blue-600 transition">Nuestra Filosofía</a>
-                    <a href="index.html#news" class="hover:text-blue-600 transition">News</a>
-                    <a href="index.html#contact" class="px-5 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">Contactar</a>
+                    <a href="index.html" class="hover:text-amber-400 transition">Inicio</a>
+                    <a href="inflatable-tents.html" class="hover:text-amber-400 transition">Inflatable</a>
+                    <a href="about.html" class="hover:text-amber-400 transition">Nuestra Filosofía</a>
+                    <a href="index.html#news" class="hover:text-amber-400 transition">News</a>
+                    <a href="index.html#contact" class="px-5 py-2 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-full hover:from-amber-400 hover:to-orange-400 transition shadow-md shadow-amber-500/20">Contactar</a>
 <!-- langswitch:start -->
                     <a href="https://xinqiutent.com/commercial-event-tents.html" title="Read this page in English" class="ml-2 px-3 py-2 border border-slate-700 rounded-full text-[10px] font-bold uppercase tracking-widest text-slate-300 hover:border-amber-500 hover:text-amber-400 transition">EN</a>
                     <a href="https://xinqiutent.com/fr/commercial-event-tents.html" title="Lire cette page en français" class="ml-2 px-3 py-2 border border-slate-700 rounded-full text-[10px] font-bold uppercase tracking-widest text-slate-300 hover:border-amber-500 hover:text-amber-400 transition">FR</a>
@@ -111,10 +129,10 @@
     </nav>
 
     <!-- Category Header -->
-    <header class="bg-purple-900 text-white py-24">
+    <header class="bg-gradient-to-b from-[#0E131E] via-[#0B0F17] to-[#0B0F17] text-white py-24 border-b border-slate-800/80">
         <div class="max-w-7xl mx-auto px-4 text-center">
             <h1 class="text-5xl font-bold mb-6">Commercial Event Tents & Gazebos</h1>
-            <p class="text-xl text-purple-200 max-w-3xl mx-auto">Heavy-duty aluminum and steel frame solutions for professional events. Custom printing and durable 600D fabric options for premium brands.</p>
+            <p class="text-xl text-slate-300 max-w-3xl mx-auto">Heavy-duty aluminum and steel frame solutions for professional events. Custom printing and durable 600D fabric options for premium brands.</p>
         </div>
     </header>
 
@@ -122,294 +140,294 @@
     <section class="py-24">
         <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-16 items-center">
             <div class="rounded-3xl overflow-hidden shadow-2xl h-[500px]">
-                <img src="https://s.alicdn.com/@sc04/kf/H50ba3805ba6b47dea4d351e46110770aU/Custom-Toldos-Para-Patios-40mm-Folding-Popup.jpg" alt="Commercial Gazebo Model" class="w-full h-full object-contain bg-white">
+                <img src="https://s.alicdn.com/@sc04/kf/H50ba3805ba6b47dea4d351e46110770aU/Custom-Toldos-Para-Patios-40mm-Folding-Popup.jpg" alt="Commercial Gazebo Model" class="w-full h-full object-contain bg-[#0B0F17]">
             </div>
             <div>
-                <h2 class="text-3xl font-bold mb-6 text-blue-900">XQ-Event Series: Professional Durability</h2>
+                <h2 class="text-3xl font-bold mb-6 text-white">XQ-Event Series: Professional Durability</h2>
                 <div class="space-y-6">
                     <div class="flex gap-4">
-                        <div class="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center shrink-0">
-                            <i class="fas fa-hammer text-purple-600"></i>
+                        <div class="w-12 h-12 bg-amber-500/10 border border-amber-500/30 rounded-xl flex items-center justify-center shrink-0">
+                            <i class="fas fa-hammer text-amber-400"></i>
                         </div>
                         <div>
                             <h3 class="font-bold text-lg">Heavy-Duty Frame Options</h3>
-                            <p class="text-gray-600">Choose from 30mm, 40mm, or 50mm hexagonal aluminum profiles for maximum stability in windy conditions.</p>
+                            <p class="text-slate-300">Choose from 30mm, 40mm, or 50mm hexagonal aluminum profiles for maximum stability in windy conditions.</p>
                         </div>
                     </div>
                     <div class="flex gap-4">
-                        <div class="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center shrink-0">
-                            <i class="fas fa-print text-purple-600"></i>
+                        <div class="w-12 h-12 bg-amber-500/10 border border-amber-500/30 rounded-xl flex items-center justify-center shrink-0">
+                            <i class="fas fa-print text-amber-400"></i>
                         </div>
                         <div>
                             <h3 class="font-bold text-lg">Full-Color Dye Sublimation</h3>
-                            <p class="text-gray-600">Professional branding with high-resolution printing on all canopy and sidewall panels.</p>
+                            <p class="text-slate-300">Professional branding with high-resolution printing on all canopy and sidewall panels.</p>
                         </div>
                     </div>
                     <div class="flex gap-4">
-                        <div class="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center shrink-0">
-                            <i class="fas fa-shield-alt text-purple-600"></i>
+                        <div class="w-12 h-12 bg-amber-500/10 border border-amber-500/30 rounded-xl flex items-center justify-center shrink-0">
+                            <i class="fas fa-shield-alt text-amber-400"></i>
                         </div>
                         <div>
                             <h3 class="font-bold text-lg">600D Heavy-Duty Oxford</h3>
-                            <p class="text-gray-600">Fire-retardant, waterproof, and UV-resistant fabrics that meet professional event standards (CPAI-84).</p>
+                            <p class="text-slate-300">Fire-retardant, waterproof, and UV-resistant fabrics that meet professional event standards (CPAI-84).</p>
                         </div>
                     </div>
                 </div>
                 <div class="mt-10">
-                    <a href="index.html#contact" class="inline-block bg-blue-600 text-white px-10 py-4 rounded-xl font-bold hover:bg-blue-700 transition shadow-lg">Request Wholesale Price List</a>
+                    <a href="index.html#contact" class="inline-block bg-gradient-to-r from-amber-500 to-orange-500 text-black px-10 py-4 rounded-xl font-bold hover:from-amber-400 hover:to-orange-400 transition shadow-lg shadow-amber-500/20">Request Wholesale Price List</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Product Grid (20 Products) -->
-    <section class="py-24 bg-white">
+    <section class="py-24 bg-[#0B0F17] border-b border-slate-800/80">
         <div class="max-w-7xl mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-12 text-center text-blue-900 uppercase tracking-widest">Global Export Selection - 2026 Event Series</h2>
+            <h2 class="text-3xl font-bold mb-12 text-center text-white uppercase tracking-widest">Global Export Selection - 2026 Event Series</h2>
             <div id="product-grid" class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <!-- Added 2026-09-21: store catalogue expansion -->
                 <!-- Product 1 -->
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
-                        <img src="https://s.alicdn.com/@sc04/kf/H50ba3805ba6b47dea4d351e46110770aU/Custom-Toldos-Para-Patios-40mm-Folding-Popup.jpg" alt="Commercial gazebo" class="w-full h-full object-contain bg-white group-hover:scale-110 transition duration-500">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
+                        <img src="https://s.alicdn.com/@sc04/kf/H50ba3805ba6b47dea4d351e46110770aU/Custom-Toldos-Para-Patios-40mm-Folding-Popup.jpg" alt="Commercial gazebo" class="w-full h-full object-contain bg-[#0B0F17] group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">40mm Hex Frame Professional Pop-up Gazebo</h3>
-                    <p class="text-gray-500 text-xs mb-4">600D Oxford PVC. Heavy-duty aluminum frame. Ideal for trade shows.</p>
+                    <p class="text-slate-400 text-xs mb-4">600D Oxford PVC. Heavy-duty aluminum frame. Ideal for trade shows.</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">MOQ: 50 PCS</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md">Contactar</a>
+                        <span class="text-amber-400">MOQ: 50 PCS</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg">Contactar</a>
                     </div>
                 </div>
                 <!-- Product 2 -->
                 <!-- Product 3 -->
                 <!-- Product 4 -->
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
-                        <img src="https://s.alicdn.com/@sc04/kf/Hb86306fa025e4c889593b16994b9e1b5f/Wind-Valley-8-10-Person-Luxury-Glamping.png" alt="Large event tent" class="w-full h-full object-contain bg-white group-hover:scale-110 transition duration-500">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
+                        <img src="https://s.alicdn.com/@sc04/kf/Hb86306fa025e4c889593b16994b9e1b5f/Wind-Valley-8-10-Person-Luxury-Glamping.png" alt="Large event tent" class="w-full h-full object-contain bg-[#0B0F17] group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Large Capacity Outdoor Marquee Tent</h3>
-                    <p class="text-gray-500 text-xs mb-4">10m x 20m configurations available. Modular steel frame.</p>
+                    <p class="text-slate-400 text-xs mb-4">10m x 20m configurations available. Modular steel frame.</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">MOQ: 5 PCS</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md">Contactar</a>
+                        <span class="text-amber-400">MOQ: 5 PCS</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg">Contactar</a>
                     </div>
                 </div>
                 <!-- Product 5 -->
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
-                        <img src="https://s.alicdn.com/@sc04/kf/Hba866c27571a4795acb44a830b5af3f2F/Wind-Valley-Adjustable-Outdoor-Folding-Moon-Chair.png" alt="Event chair" class="w-full h-full object-contain bg-white group-hover:scale-110 transition duration-500">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
+                        <img src="https://s.alicdn.com/@sc04/kf/Hba866c27571a4795acb44a830b5af3f2F/Wind-Valley-Adjustable-Outdoor-Folding-Moon-Chair.png" alt="Event chair" class="w-full h-full object-contain bg-[#0B0F17] group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Complementary Event Seating & Table Kits</h3>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">MOQ: 100 SETS</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md">Contactar</a>
+                        <span class="text-amber-400">MOQ: 100 SETS</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg">Contactar</a>
                     </div>
                 </div>
                 <!-- Continuing to 20 -->
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
-                        <img src="https://s.alicdn.com/@sc04/kf/H25e92819dc1d4039ac654a4908a84491i/Wind-Valley-Outdoor-Stainless-Steel-Folding-Fishing.png" alt="Custom canopy" class="w-full h-full object-contain bg-white group-hover:scale-110 transition duration-500">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
+                        <img src="https://s.alicdn.com/@sc04/kf/H25e92819dc1d4039ac654a4908a84491i/Wind-Valley-Outdoor-Stainless-Steel-Folding-Fishing.png" alt="Custom canopy" class="w-full h-full object-contain bg-[#0B0F17] group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">10x10ft Custom Printed Canopy for Branding</h3>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">MOQ: 50 PCS</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md">Contactar</a>
+                        <span class="text-amber-400">MOQ: 50 PCS</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg">Contactar</a>
                     </div>
-                    <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
-                        <img src="https://s.alicdn.com/@sc04/kf/Hcd4c556ff5324012a89331c017a67bc5x/Wind-Valley-Comfortable-Lightweight-Folding-Leisure-Chair.png" alt="Market tent" class="w-full h-full object-contain bg-white group-hover:scale-110 transition duration-500">
+                    <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
+                        <img src="https://s.alicdn.com/@sc04/kf/Hcd4c556ff5324012a89331c017a67bc5x/Wind-Valley-Comfortable-Lightweight-Folding-Leisure-Chair.png" alt="Market tent" class="w-full h-full object-contain bg-[#0B0F17] group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Street Market Pop-up Gazebo with Side Walls</h3>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">MOQ: 100 PCS</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md">Contactar</a>
+                        <span class="text-amber-400">MOQ: 100 PCS</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg">Contactar</a>
                     </div>
                 </div>
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
-                        <img src="https://s.alicdn.com/@sc04/kf/H0bcbe969d30e4ba0a2635cb27488568dg/Durable-Eco-Friendly-Aluminum-Outdoor-Sofa-Set.jpg" alt="Party tent" class="w-full h-full object-contain bg-white group-hover:scale-110 transition duration-500">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
+                        <img src="https://s.alicdn.com/@sc04/kf/H0bcbe969d30e4ba0a2635cb27488568dg/Durable-Eco-Friendly-Aluminum-Outdoor-Sofa-Set.jpg" alt="Party tent" class="w-full h-full object-contain bg-[#0B0F17] group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">4m Hexagonal Party Pavilion with Mesh Sides</h3>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">MOQ: 30 PCS</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md">Contactar</a>
+                        <span class="text-amber-400">MOQ: 30 PCS</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg">Contactar</a>
                     </div>
                 </div>
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
-                        <img src="https://s.alicdn.com/@sc04/kf/Hde41302c9a104a8880975409cedcf6b9y/Adjustable-Iron-Frame-Moon-Modern-Design-Outdoor.jpg" alt="Exhibition tent" class="w-full h-full object-contain bg-white group-hover:scale-110 transition duration-500">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
+                        <img src="https://s.alicdn.com/@sc04/kf/Hde41302c9a104a8880975409cedcf6b9y/Adjustable-Iron-Frame-Moon-Modern-Design-Outdoor.jpg" alt="Exhibition tent" class="w-full h-full object-contain bg-[#0B0F17] group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Pagoda Style High-Peak Exhibition Marquee</h3>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">MOQ: 10 PCS</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md">Contactar</a>
+                        <span class="text-amber-400">MOQ: 10 PCS</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg">Contactar</a>
                     </div>
                 </div>
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
-                        <img src="https://s.alicdn.com/@sc04/kf/H3169db489c0f43aaaa98be6bb63fd7761/Wind-Valley-Portable-Outdoor-Folding-Aluminum-Chair.png" alt="Logistics tent" class="w-full h-full object-contain bg-white group-hover:scale-110 transition duration-500">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
+                        <img src="https://s.alicdn.com/@sc04/kf/H3169db489c0f43aaaa98be6bb63fd7761/Wind-Valley-Portable-Outdoor-Folding-Aluminum-Chair.png" alt="Logistics tent" class="w-full h-full object-contain bg-[#0B0F17] group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Rapid Deployment Logistics & Command Shelter</h3>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">MOQ: 20 PCS</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md">Contactar</a>
+                        <span class="text-amber-400">MOQ: 20 PCS</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg">Contactar</a>
                     </div>
                 </div>
                 <!-- 11-20 placeholder grid -->
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
-                        <img src="https://s.alicdn.com/@sc04/kf/Ha8792e8a7aa04360a145f1c0f32be4e01/Outdoor-Full-Automatic-Quick-Opening-Four-Sided.png" alt="Event tent 11" class="w-full h-full object-contain bg-white group-hover:scale-110 transition duration-500">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
+                        <img src="https://s.alicdn.com/@sc04/kf/Ha8792e8a7aa04360a145f1c0f32be4e01/Outdoor-Full-Automatic-Quick-Opening-Four-Sided.png" alt="Event tent 11" class="w-full h-full object-contain bg-[#0B0F17] group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Steel Frame Folding Gazebo 3m x 3m</h3>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">MOQ: 500 PCS</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md">Contactar</a>
+                        <span class="text-amber-400">MOQ: 500 PCS</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg">Contactar</a>
                     </div>
                 </div>
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
-                        <img src="https://s.alicdn.com/@sc04/kf/H7fe7fadc6aed49169170deb4561698fdE.jpg" alt="Event tent 12" class="w-full h-full object-contain bg-white group-hover:scale-110 transition duration-500">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
+                        <img src="https://s.alicdn.com/@sc04/kf/H7fe7fadc6aed49169170deb4561698fdE.jpg" alt="Event tent 12" class="w-full h-full object-contain bg-[#0B0F17] group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Aluminum Tienda Plegable 3m x 6m Bulk Supply</h3>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">MOQ: 100 PCS</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md">Contactar</a>
+                        <span class="text-amber-400">MOQ: 100 PCS</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg">Contactar</a>
                     </div>
                 </div>
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
-                        <img src="https://s.alicdn.com/@sc04/kf/He036bb8abaf247938a09e0d2e849d4d4T/Four-Person-Double-Layer-Detachable-Waterproof-Tent.png" alt="Event tent 13" class="w-full h-full object-contain bg-white group-hover:scale-110 transition duration-500">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
+                        <img src="https://s.alicdn.com/@sc04/kf/He036bb8abaf247938a09e0d2e849d4d4T/Four-Person-Double-Layer-Detachable-Waterproof-Tent.png" alt="Event tent 13" class="w-full h-full object-contain bg-[#0B0F17] group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Heavy Duty Marquee with Clear Windows</h3>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">MOQ: 20 PCS</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md">Contactar</a>
+                        <span class="text-amber-400">MOQ: 20 PCS</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg">Contactar</a>
                     </div>
                 </div>
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
-                        <img src="https://s.alicdn.com/@sc04/kf/Hf2430194955042648f75417970b81ae8S/Portable-Lightweight-Outdoor-Camping-Tent-Sunshade-Windproof.png" alt="Event tent 14" class="w-full h-full object-contain bg-white group-hover:scale-110 transition duration-500">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
+                        <img src="https://s.alicdn.com/@sc04/kf/Hf2430194955042648f75417970b81ae8S/Portable-Lightweight-Outdoor-Camping-Tent-Sunshade-Windproof.png" alt="Event tent 14" class="w-full h-full object-contain bg-[#0B0F17] group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Sports Event Pop-up Team Shelter</h3>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">MOQ: 200 PCS</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md">Contactar</a>
+                        <span class="text-amber-400">MOQ: 200 PCS</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg">Contactar</a>
                     </div>
                 </div>
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
-                        <img src="https://s.alicdn.com/@sc04/kf/Ha8dc4b1b4752453c94c2188720cd784cB/Luxury-Glamping-Air-Tent-House-Single-Layer.png" alt="Event tent 15" class="w-full h-full object-contain bg-white group-hover:scale-110 transition duration-500">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
+                        <img src="https://s.alicdn.com/@sc04/kf/Ha8dc4b1b4752453c94c2188720cd784cB/Luxury-Glamping-Air-Tent-House-Single-Layer.png" alt="Event tent 15" class="w-full h-full object-contain bg-[#0B0F17] group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Premium Event Pavilion for Corporate Hire</h3>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">MOQ: 10 PCS</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md">Contactar</a>
+                        <span class="text-amber-400">MOQ: 10 PCS</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg">Contactar</a>
                     </div>
                 </div>
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
-                        <img src="https://s.alicdn.com/@sc04/kf/Hcd4c556ff5324012a89331c017a67bc5x/Wind-Valley-Comfortable-Lightweight-Folding-Leisure-Chair.png" alt="Event tent 16" class="w-full h-full object-contain bg-white group-hover:scale-110 transition duration-500">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
+                        <img src="https://s.alicdn.com/@sc04/kf/Hcd4c556ff5324012a89331c017a67bc5x/Wind-Valley-Comfortable-Lightweight-Folding-Leisure-Chair.png" alt="Event tent 16" class="w-full h-full object-contain bg-[#0B0F17] group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Custom Size Gazebo for Promotional Roadshows</h3>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">MOQ: 50 PCS</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md">Contactar</a>
+                        <span class="text-amber-400">MOQ: 50 PCS</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg">Contactar</a>
                     </div>
                 </div>
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
-                        <img src="https://s.alicdn.com/@sc04/kf/Hde41302c9a104a8880975409cedcf6b9y/Adjustable-Iron-Frame-Moon-Modern-Design-Outdoor.jpg" alt="Event tent 17" class="w-full h-full object-contain bg-white group-hover:scale-110 transition duration-500">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
+                        <img src="https://s.alicdn.com/@sc04/kf/Hde41302c9a104a8880975409cedcf6b9y/Adjustable-Iron-Frame-Moon-Modern-Design-Outdoor.jpg" alt="Event tent 17" class="w-full h-full object-contain bg-[#0B0F17] group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">High-Peak Festival Tent for Food Vendors</h3>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">MOQ: 50 PCS</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md">Contactar</a>
+                        <span class="text-amber-400">MOQ: 50 PCS</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg">Contactar</a>
                     </div>
                 </div>
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
-                        <img src="https://s.alicdn.com/@sc04/kf/H0bcbe969d30e4ba0a2635cb27488568dg/Durable-Eco-Friendly-Aluminum-Outdoor-Sofa-Set.jpg" alt="Event tent 18" class="w-full h-full object-contain bg-white group-hover:scale-110 transition duration-500">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
+                        <img src="https://s.alicdn.com/@sc04/kf/H0bcbe969d30e4ba0a2635cb27488568dg/Durable-Eco-Friendly-Aluminum-Outdoor-Sofa-Set.jpg" alt="Event tent 18" class="w-full h-full object-contain bg-[#0B0F17] group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Modular Marquee System for Trade Fair Booths</h3>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">MOQ: 5 PCS</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md">Contactar</a>
+                        <span class="text-amber-400">MOQ: 5 PCS</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg">Contactar</a>
                     </div>
                 </div>
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
-                        <img src="https://s.alicdn.com/@sc04/kf/H25e92819dc1d4039ac654a4908a84491i/Wind-Valley-Outdoor-Stainless-Steel-Folding-Fishing.png" alt="Event tent 19" class="w-full h-full object-contain bg-white group-hover:scale-110 transition duration-500">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
+                        <img src="https://s.alicdn.com/@sc04/kf/H25e92819dc1d4039ac654a4908a84491i/Wind-Valley-Outdoor-Stainless-Steel-Folding-Fishing.png" alt="Event tent 19" class="w-full h-full object-contain bg-[#0B0F17] group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Pop-up Gazebo with Printed Logos for Sponsorship</h3>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">MOQ: 100 PCS</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md">Contactar</a>
+                        <span class="text-amber-400">MOQ: 100 PCS</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg">Contactar</a>
                     </div>
                 </div>
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
-                        <img src="https://s.alicdn.com/@sc04/kf/Hba866c27571a4795acb44a830b5af3f2F/Wind-Valley-Adjustable-Outdoor-Folding-Moon-Chair.png" alt="Event tent 20" class="w-full h-full object-contain bg-white group-hover:scale-110 transition duration-500">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
+                        <img src="https://s.alicdn.com/@sc04/kf/Hba866c27571a4795acb44a830b5af3f2F/Wind-Valley-Adjustable-Outdoor-Folding-Moon-Chair.png" alt="Event tent 20" class="w-full h-full object-contain bg-[#0B0F17] group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Reinforced Event Canopy with Weight Bags</h3>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">MOQ: 300 PCS</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md">Contactar</a>
+                        <span class="text-amber-400">MOQ: 300 PCS</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg">Contactar</a>
                     </div>
                 </div>
             </div>
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
-                        <img src="https://s.alicdn.com/@sc04/kf/H50ba3805ba6b47dea4d351e46110770aU/Custom-Toldos-Para-Patios-40mm-Folding-Popup.jpg_480x480.jpg?hasNWGrade=1" alt="40mm Folding Pop-Up Gazebo, 10x20 Canopy" class="w-full h-full object-contain bg-white group-hover:scale-110 transition duration-500">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
+                        <img src="https://s.alicdn.com/@sc04/kf/H50ba3805ba6b47dea4d351e46110770aU/Custom-Toldos-Para-Patios-40mm-Folding-Popup.jpg_480x480.jpg?hasNWGrade=1" alt="40mm Folding Pop-Up Gazebo, 10x20 Canopy" class="w-full h-full object-contain bg-[#0B0F17] group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">40mm Folding Pop-Up Gazebo, 10x20 Canopy</h3>
-                    <p class="text-gray-500 text-xs mb-4">Trade-show grade folding gazebo, 40mm frame, custom branding.</p>
+                    <p class="text-slate-400 text-xs mb-4">Trade-show grade folding gazebo, 40mm frame, custom branding.</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">MOQ: 1 PCS</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md">Contactar</a>
+                        <span class="text-amber-400">MOQ: 1 PCS</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg">Contactar</a>
                     </div>
                 </div>
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
-                        <img src="https://s.alicdn.com/@sc04/kf/Hc119710adc0c4cc795eba6dc88dbec70f/Canopy-Tent-Outdoor-Dome-Tent-for-Camping.png_480x480.jpg?hasNWGrade=1" alt="Party Dome Canopy 8-10 Person, 210D Oxford" class="w-full h-full object-contain bg-white group-hover:scale-110 transition duration-500">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
+                        <img src="https://s.alicdn.com/@sc04/kf/Hc119710adc0c4cc795eba6dc88dbec70f/Canopy-Tent-Outdoor-Dome-Tent-for-Camping.png_480x480.jpg?hasNWGrade=1" alt="Party Dome Canopy 8-10 Person, 210D Oxford" class="w-full h-full object-contain bg-[#0B0F17] group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Party Dome Canopy 8-10 Person, 210D Oxford</h3>
-                    <p class="text-gray-500 text-xs mb-4">Large event dome with 210D Oxford waterproof shell.</p>
+                    <p class="text-slate-400 text-xs mb-4">Large event dome with 210D Oxford waterproof shell.</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">MOQ: 1 PCS</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md">Contactar</a>
+                        <span class="text-amber-400">MOQ: 1 PCS</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg">Contactar</a>
                     </div>
                 </div>
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
-                        <img src="https://s.alicdn.com/@sc04/kf/He08622bb0d4343048032e991ab7cdf55x/Xin-Qiu-Hexagon-Canopy-Outdoor-Four-season.png_480x480.jpg?hasNWGrade=1" alt="Hexagon Canopy Automatic Tienda Plegable" class="w-full h-full object-contain bg-white group-hover:scale-110 transition duration-500">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
+                        <img src="https://s.alicdn.com/@sc04/kf/He08622bb0d4343048032e991ab7cdf55x/Xin-Qiu-Hexagon-Canopy-Outdoor-Four-season.png_480x480.jpg?hasNWGrade=1" alt="Hexagon Canopy Automatic Tienda Plegable" class="w-full h-full object-contain bg-[#0B0F17] group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Hexagon Canopy Automatic Tienda Plegable</h3>
-                    <p class="text-gray-500 text-xs mb-4">One-bedroom hexagon canopy, wind and mosquito proof, 300D Oxford.</p>
+                    <p class="text-slate-400 text-xs mb-4">One-bedroom hexagon canopy, wind and mosquito proof, 300D Oxford.</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">MOQ: 100 PCS</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md">Contactar</a>
+                        <span class="text-amber-400">MOQ: 100 PCS</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg">Contactar</a>
                     </div>
                 </div>
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
-                        <img src="https://s.alicdn.com/@sc04/kf/H120a43e6af4347b9a0d668960ec58dbcf/Outdoor-Emergency-Disaster-Relief-Tent-Temporary-Isolation.jpg_480x480.jpg?hasNWGrade=1" alt="Emergency Relief &amp; Isolation Tent" class="w-full h-full object-contain bg-white group-hover:scale-110 transition duration-500">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
+                        <img src="https://s.alicdn.com/@sc04/kf/H120a43e6af4347b9a0d668960ec58dbcf/Outdoor-Emergency-Disaster-Relief-Tent-Temporary-Isolation.jpg_480x480.jpg?hasNWGrade=1" alt="Emergency Relief &amp; Isolation Tent" class="w-full h-full object-contain bg-[#0B0F17] group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Emergency Relief &amp; Isolation Tent</h3>
-                    <p class="text-gray-500 text-xs mb-4">No-setup quick-open folding frame, 4-season, steel wire structure.</p>
+                    <p class="text-slate-400 text-xs mb-4">No-setup quick-open folding frame, 4-season, steel wire structure.</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">MOQ: 300 PCS</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md">Contactar</a>
+                        <span class="text-amber-400">MOQ: 300 PCS</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg">Contactar</a>
                     </div>
                 </div>
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
-                        <img src="https://s.alicdn.com/@sc04/kf/H12612d8fc7044632bdfed153186f140bv/Outdoor-Camping-Space-Fortress-Tent-Aluminum-Awning.jpg_480x480.jpg?hasNWGrade=1" alt="Space Fortress Sunshade Pavilion Tent" class="w-full h-full object-contain bg-white group-hover:scale-110 transition duration-500">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
+                        <img src="https://s.alicdn.com/@sc04/kf/H12612d8fc7044632bdfed153186f140bv/Outdoor-Camping-Space-Fortress-Tent-Aluminum-Awning.jpg_480x480.jpg?hasNWGrade=1" alt="Space Fortress Sunshade Pavilion Tent" class="w-full h-full object-contain bg-[#0B0F17] group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Space Fortress Sunshade Pavilion Tent</h3>
-                    <p class="text-gray-500 text-xs mb-4">Aluminium awning pavilion, spherical structure, event grade.</p>
+                    <p class="text-slate-400 text-xs mb-4">Aluminium awning pavilion, spherical structure, event grade.</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">MOQ: 100 PCS</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md">Contactar</a>
+                        <span class="text-amber-400">MOQ: 100 PCS</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg">Contactar</a>
                     </div>
                 </div>
             </div>
@@ -418,12 +436,12 @@
 
     <!-- Lead Magnet Block -->
     <div class="max-w-7xl mx-auto px-4 mb-24">
-        <div class="p-12 bg-blue-900 rounded-[3rem] text-white text-center shadow-2xl relative overflow-hidden">
+        <div class="p-12 bg-[#131926] rounded-[3rem] text-white text-center shadow-2xl border border-slate-800 relative overflow-hidden">
             <h3 class="text-3xl font-bold mb-6">Download Our 2026 Event Tent & Gazebo Catalog</h3>
-            <p class="text-blue-200 text-lg mb-10 max-w-2xl mx-auto">Get technical drawings and pricing for our full range of professional gazebos and party tents.</p>
+            <p class="text-slate-300 text-lg mb-10 max-w-2xl mx-auto">Get technical drawings and pricing for our full range of professional gazebos and party tents.</p>
             <div class="flex flex-col md:flex-row justify-center gap-6">
-                <a href="index.html#contact" class="px-10 py-5 bg-white text-blue-900 font-bold rounded-2xl hover:bg-blue-50 transition shadow-lg">Get Catalog & Price List</a>
-                <a href="https://wa.me/8618989341689" class="px-10 py-5 bg-green-500 text-white font-bold rounded-2xl hover:bg-green-600 transition shadow-lg flex items-center justify-center gap-3">
+                <a href="index.html#contact" class="px-10 py-5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-2xl hover:from-amber-400 hover:to-orange-400 transition shadow-lg shadow-amber-500/20">Get Catalog & Price List</a>
+                <a href="https://wa.me/8618989341689" class="px-10 py-5 bg-[#0B0F17] border border-emerald-500/50 text-emerald-400 font-bold rounded-2xl hover:bg-emerald-500/10 transition flex items-center justify-center gap-3">
                     <i class="fab fa-whatsapp"></i> Chat with Manager
                 </a>
             </div>
@@ -431,22 +449,22 @@
     </div>
 
     <!-- B2B Service Footer -->
-    <section class="py-24 bg-gray-50 border-t">
+    <section class="py-24 bg-[#0B0F17] border-b border-slate-800/80">
         <div class="max-w-4xl mx-auto px-4 text-center">
-            <h2 class="text-4xl font-bold mb-8 text-blue-900">Partner with Ningbo Xinqiu</h2>
-            <p class="text-xl text-gray-600 mb-10">Supplying the world's leading event organizers and promotional brands.</p>
+            <h2 class="text-4xl font-bold mb-8 text-white">Partner with Ningbo Xinqiu</h2>
+            <p class="text-xl text-slate-300 mb-10">Supplying the world's leading event organizers and promotional brands.</p>
             <div class="flex flex-col md:flex-row justify-center gap-6">
-                <a href="mailto:ray@xinqiu-tent.com" class="flex items-center justify-center gap-3 bg-blue-600 text-white px-8 py-4 rounded-xl font-bold hover:bg-blue-700 transition">
+                <a href="mailto:ray@xinqiu-tent.com" class="flex items-center justify-center gap-3 bg-gradient-to-r from-amber-500 to-orange-500 text-black px-8 py-4 rounded-xl font-bold hover:from-amber-400 hover:to-orange-400 transition">
                     <i class="fas fa-envelope"></i> Email Ray
                 </a>
-                <a href="https://wa.me/8618989341689" class="flex items-center justify-center gap-3 bg-green-600 text-white px-8 py-4 rounded-xl font-bold hover:bg-green-700 transition">
+                <a href="https://wa.me/8618989341689" class="flex items-center justify-center gap-3 bg-[#131926] border border-emerald-500/50 text-emerald-400 px-8 py-4 rounded-xl font-bold hover:bg-emerald-500/10 transition">
                     <i class="fab fa-whatsapp"></i> WhatsApp Us
                 </a>
             </div>
         </div>
     </section>
 
-    <footer class="bg-gray-900 text-white py-12 text-center text-sm opacity-60">
+    <footer class="bg-[#070A0F] text-white py-12 text-center text-sm text-slate-500 border-t border-slate-800">
         &copy; 2026 Ningbo Xinqiu Travelling Products Co., Ltd. Todos los derechos reservados.
     </footer>
 </body>

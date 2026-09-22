@@ -61,6 +61,24 @@
     </script>
     <script src="/assets/js/tracking.js" defer></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                black: '#0B0F17',
+                dark: '#0E131E',
+                card: '#131926',
+                cardHover: '#161F30',
+                amber: '#FF7A00',
+                gold: '#F59E0B'
+              }
+            }
+          }
+        }
+      }
+    </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" media="print" onload="this.media='all'">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap');
@@ -77,24 +95,22 @@
     <link rel="alternate" hreflang="x-default" href="https://xinqiutent.com/outdoor-furniture.html">
     <!-- hreflang:end -->
 </head>
-<body class="bg-gray-50">
-    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b">
+<body class="bg-[#0B0F17] text-slate-100 selection:bg-amber-500 selection:text-black">
+    <nav class="fixed w-full z-50 bg-[#0B0F17]/90 backdrop-blur-md border-b border-slate-800/80">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-20 items-center">
                 <div class="flex-shrink-0 flex items-center gap-4">
                     <img src="/assets/images/favicon.png" class="h-10 w-10 rounded-full shadow-sm" alt="Xinqiu Logo">
-                    <a href="index.html" class="text-2xl font-bold text-blue-900">XINQIU <span class="text-blue-600">TENT</span></a>
+                    <a href="index.html" class="text-2xl font-bold text-white tracking-wide">XINQIU <span class="text-amber-400">TENT</span></a>
                 </div>
                 
                 <div class="hidden md:flex space-x-6 text-xs font-semibold uppercase tracking-wider items-center">
-                    <a href="index.html" class="hover:text-blue-600 transition">Home</a>
-                    <a href="camping-tents.html" class="hover:text-blue-600 transition">Camping</a>
-                    <a href="pop-up-tents.html" class="hover:text-blue-600 transition">Pop-up</a>
-                    <a href="changing-tents.html" class="hover:text-blue-600 transition">Changing</a>
-                    <a href="index.html#faq" class="hover:text-blue-600 transition">Sourcing FAQ</a>
-                    <a href="index.html#about" class="hover:text-blue-600 transition">Factory</a>
-                    <a href="index.html#news" class="hover:text-blue-600 transition">Intelligence</a>
-                    <a href="index.html#contact" class="px-5 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">Inquiry</a>
+                    <a href="index.html" class="hover:text-amber-400 transition">Home</a>
+                    <a href="products.html" class="hover:text-amber-400 transition">Products</a>
+                    <a href="index.html#faq" class="hover:text-amber-400 transition">Sourcing FAQ</a>
+                    <a href="index.html#about" class="hover:text-amber-400 transition">Factory</a>
+                    <a href="index.html#news" class="hover:text-amber-400 transition">Intelligence</a>
+                    <a href="index.html#contact" class="px-5 py-2 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-full hover:from-amber-400 hover:to-orange-400 transition shadow-md shadow-amber-500/20">Inquiry</a>
 <!-- langswitch:start -->
                     <a href="https://xinqiutent.com/fr/outdoor-furniture.html" title="Lire cette page en français" class="ml-2 px-3 py-2 border border-slate-700 rounded-full text-[10px] font-bold uppercase tracking-widest text-slate-300 hover:border-amber-500 hover:text-amber-400 transition">FR</a>
                     <a href="https://xinqiutent.com/de/outdoor-furniture.html" title="Diese Seite auf Deutsch lesen" class="ml-2 px-3 py-2 border border-slate-700 rounded-full text-[10px] font-bold uppercase tracking-widest text-slate-300 hover:border-amber-500 hover:text-amber-400 transition">DE</a>
@@ -117,183 +133,183 @@
         </div>
     </nav>
 
-    <header class="bg-blue-900 text-white py-24 mt-20">
+    <header class="bg-gradient-to-b from-[#0E131E] via-[#0B0F17] to-[#0B0F17] text-white py-24 mt-20 border-b border-slate-800/80">
         <div class="max-w-7xl mx-auto px-4 text-center">
             <h1 class="text-5xl font-bold mb-6">Durable Comfort for Every Campsite</h1>
-            <p class="text-xl text-blue-200 max-w-3xl mx-auto">Ergonomic chairs, aluminum tables, and premium camping cots. Built to last in the wild.</p>
+            <p class="text-xl text-slate-300 max-w-3xl mx-auto">Ergonomic chairs, aluminum tables, and premium camping cots. Built to last in the wild.</p>
         </div>
     </header>
 
     
 
-    <section class="py-24 bg-white">
+    <section class="py-24 bg-[#0B0F17] border-b border-slate-800/80">
         <div class="max-w-7xl mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-12 text-center text-blue-900 uppercase tracking-widest">Global Export Selection - 2026 Outdoor Furniture</h2>
+            <h2 class="text-3xl font-bold mb-12 text-center text-white uppercase tracking-widest">Global Export Selection - 2026 Outdoor Furniture</h2>
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <!-- Added 2026-09-21: store catalogue expansion -->
                 
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
                         <img src="https://s.alicdn.com/@sc04/kf/H22e83035dafa468c86a19fa6e3bf236bP/Wind-Valley-5-.jpg_480x480.jpg?hasNWGrade=1" alt="Wind Valley 5-Position Adjustable Reclining Camping Chair" loading="lazy" decoding="async" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Wind Valley 5-Position Adjustable Reclining Camping Chair</h3>
-                    <p class="text-gray-500 text-xs mb-4">US$6-10 | MOQ: 100 pcs</p>
+                    <p class="text-slate-400 text-xs mb-4">US$6-10 | MOQ: 100 pcs</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">Factory Direct</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md hover:bg-blue-200 transition">Request Quote</a>
+                        <span class="text-amber-400">Factory Direct</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg 200brightness-110 transition">Request Quote</a>
                     </div>
                 </div>
     
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
                         <img src="https://s.alicdn.com/@sc04/kf/H9accd577d4994c0fabb6be536093e1d71/-.jpg_480x480.jpg?hasNWGrade=1" alt="Modern Aluminum Folding Camping Chair & Side Table Set" loading="lazy" decoding="async" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Modern Aluminum Folding Camping Chair & Side Table Set</h3>
-                    <p class="text-gray-500 text-xs mb-4">US$18.60-18.80 | MOQ: 300 pcs</p>
+                    <p class="text-slate-400 text-xs mb-4">US$18.60-18.80 | MOQ: 300 pcs</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">Factory Direct</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md hover:bg-blue-200 transition">Request Quote</a>
+                        <span class="text-amber-400">Factory Direct</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg 200brightness-110 transition">Request Quote</a>
                     </div>
                 </div>
     
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
                         <img src="https://s.alicdn.com/@sc04/kf/H25fa8f89fdd24f3bb959633b679767c1O/-.jpg_480x480.jpg?hasNWGrade=1" alt="Aluminum Folding Garden Chair & Adjustable Fishing Stool" loading="lazy" decoding="async" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Aluminum Folding Garden Chair & Adjustable Fishing Stool</h3>
-                    <p class="text-gray-500 text-xs mb-4">US$5.60-5.80 | MOQ: 300 pcs</p>
+                    <p class="text-slate-400 text-xs mb-4">US$5.60-5.80 | MOQ: 300 pcs</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">Factory Direct</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md hover:bg-blue-200 transition">Request Quote</a>
+                        <span class="text-amber-400">Factory Direct</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg 200brightness-110 transition">Request Quote</a>
                     </div>
                 </div>
     
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
                         <img src="https://s.alicdn.com/@sc04/kf/H25986d01c439439aadec61f692f00854S/Xiniqu-.png_480x480.jpg?hasNWGrade=1" alt="Xinqiu Aluminum Moon Chair & Folding Camping Table Set" loading="lazy" decoding="async" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Xinqiu Aluminum Moon Chair & Folding Camping Table Set</h3>
-                    <p class="text-gray-500 text-xs mb-4">US$9.38-9.89 | MOQ: 500 pcs</p>
+                    <p class="text-slate-400 text-xs mb-4">US$9.38-9.89 | MOQ: 500 pcs</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">Factory Direct</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md hover:bg-blue-200 transition">Request Quote</a>
+                        <span class="text-amber-400">Factory Direct</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg 200brightness-110 transition">Request Quote</a>
                     </div>
                 </div>
     
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
                         <img src="https://s.alicdn.com/@sc04/kf/H0bcbe969d30e4ba0a2635cb27488568dg/-4-.jpg_480x480.jpg?hasNWGrade=1" alt="4-Seater Aluminum & Bamboo Outdoor Lounge Furniture Set" loading="lazy" decoding="async" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">4-Seater Aluminum & Bamboo Outdoor Lounge Furniture Set</h3>
-                    <p class="text-gray-500 text-xs mb-4">US$33.30-33.50 | MOQ: 300 sets</p>
+                    <p class="text-slate-400 text-xs mb-4">US$33.30-33.50 | MOQ: 300 sets</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">Factory Direct</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md hover:bg-blue-200 transition">Request Quote</a>
+                        <span class="text-amber-400">Factory Direct</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg 200brightness-110 transition">Request Quote</a>
                     </div>
                 </div>
     
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
                         <img src="https://s.alicdn.com/@sc04/kf/Hcd4c556ff5324012a89331c017a67bc5x/Wind-Valley-.png_480x480.jpg?hasNWGrade=1" alt="Wind Valley Lightweight Portable Folding Camping Leisure Chair" loading="lazy" decoding="async" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Wind Valley Lightweight Portable Folding Camping Leisure Chair</h3>
-                    <p class="text-gray-500 text-xs mb-4">US$17.88-18.28 | MOQ: 300 pcs</p>
+                    <p class="text-slate-400 text-xs mb-4">US$17.88-18.28 | MOQ: 300 pcs</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">Factory Direct</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md hover:bg-blue-200 transition">Request Quote</a>
+                        <span class="text-amber-400">Factory Direct</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg 200brightness-110 transition">Request Quote</a>
                     </div>
                 </div>
     
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
                         <img src="https://s.alicdn.com/@sc04/kf/Ha5998543615c457199dccdfbcf3283401/-.png_480x480.jpg?hasNWGrade=1" alt="Modern Rectangular Patio Dining Table & Chairs Set" loading="lazy" decoding="async" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Modern Rectangular Patio Dining Table & Chairs Set</h3>
-                    <p class="text-gray-500 text-xs mb-4">US$21.60-21.80 | MOQ: 300 sets</p>
+                    <p class="text-slate-400 text-xs mb-4">US$21.60-21.80 | MOQ: 300 sets</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">Factory Direct</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md hover:bg-blue-200 transition">Request Quote</a>
+                        <span class="text-amber-400">Factory Direct</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg 200brightness-110 transition">Request Quote</a>
                     </div>
                 </div>
     
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
                         <img src="https://s.alicdn.com/@sc04/kf/H2664d646cf9640ec954b98c45cb67e443/-.png_480x480.jpg?hasNWGrade=1" alt="Wind Valley Folding Director's Chair with Side Table" loading="lazy" decoding="async" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Wind Valley Folding Director's Chair with Side Table</h3>
-                    <p class="text-gray-500 text-xs mb-4">US$8-17 | MOQ: 50 pcs</p>
+                    <p class="text-slate-400 text-xs mb-4">US$8-17 | MOQ: 50 pcs</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">Factory Direct</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md hover:bg-blue-200 transition">Request Quote</a>
+                        <span class="text-amber-400">Factory Direct</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg 200brightness-110 transition">Request Quote</a>
                     </div>
                 </div>
     
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
                         <img src="https://s.alicdn.com/@sc04/kf/H256af06cd30a420fad6560b600ac782f6/-120-.png_480x480.jpg?hasNWGrade=1" alt="Heavy-Duty 120kg Load Solid Wood Folding Camping Table" loading="lazy" decoding="async" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Heavy-Duty 120kg Load Solid Wood Folding Camping Table</h3>
-                    <p class="text-gray-500 text-xs mb-4">US$28-34 | MOQ: 300 pcs</p>
+                    <p class="text-slate-400 text-xs mb-4">US$28-34 | MOQ: 300 pcs</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">Factory Direct</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md hover:bg-blue-200 transition">Request Quote</a>
+                        <span class="text-amber-400">Factory Direct</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg 200brightness-110 transition">Request Quote</a>
                     </div>
                 </div>
     
     
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
                         <img src="https://s.alicdn.com/@sc04/kf/H0caac96747b04e08bb8526ea991895d3n/Xiniqu-Modern-Design-Orange-Metal-Aluminum-Folding.jpg_480x480.jpg?hasNWGrade=1" alt="Xiniqu Aluminum Folding 4-Seater Outdoor Furniture Set" loading="lazy" decoding="async" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Xiniqu Aluminum Folding 4-Seater Outdoor Furniture Set</h3>
-                    <p class="text-gray-500 text-xs mb-4">US$25.50-25.70 | MOQ: 300 pcs</p>
+                    <p class="text-slate-400 text-xs mb-4">US$25.50-25.70 | MOQ: 300 pcs</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">Factory Direct</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md hover:bg-blue-200 transition">Request Quote</a>
+                        <span class="text-amber-400">Factory Direct</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg 200brightness-110 transition">Request Quote</a>
                     </div>
                 </div>
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
                         <img src="https://s.alicdn.com/@sc04/kf/H691a17375b794dd9af48f9b1ad26a7f4x/Wind-Valley-3-Piece-Modern-Aluminum-All.png_480x480.jpg?hasNWGrade=1" alt="Wind Valley 3-Piece All-Weather Patio Bench Set, Glass Top" loading="lazy" decoding="async" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Wind Valley 3-Piece All-Weather Patio Bench Set, Glass Top</h3>
-                    <p class="text-gray-500 text-xs mb-4">US$18.05-18.75 | MOQ: 1000 pcs</p>
+                    <p class="text-slate-400 text-xs mb-4">US$18.05-18.75 | MOQ: 1000 pcs</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">Factory Direct</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md hover:bg-blue-200 transition">Request Quote</a>
+                        <span class="text-amber-400">Factory Direct</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg 200brightness-110 transition">Request Quote</a>
                     </div>
                 </div>
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
                         <img src="https://s.alicdn.com/@sc04/kf/Hf6f770e03c214c11a85cb09fc5e94964y/Outdoor-Round-Foldable-Farmhouse-Style-Camping-Table.jpg_480x480.jpg?hasNWGrade=1" alt="Round Foldable Camping Table, Detachable Oxford &amp; Carbon Steel" loading="lazy" decoding="async" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Round Foldable Camping Table, Detachable Oxford &amp; Carbon Steel</h3>
-                    <p class="text-gray-500 text-xs mb-4">US$6.17 | MOQ: 500 pcs</p>
+                    <p class="text-slate-400 text-xs mb-4">US$6.17 | MOQ: 500 pcs</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">Factory Direct</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md hover:bg-blue-200 transition">Request Quote</a>
+                        <span class="text-amber-400">Factory Direct</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg 200brightness-110 transition">Request Quote</a>
                     </div>
                 </div>
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
                         <img src="https://s.alicdn.com/@sc04/kf/H07ac97c9dd744e88ab190848fb8325f4M/Modern-Outdoor-Aluminum-Folding-Dining-Table-Adjustable.jpg_480x480.jpg?hasNWGrade=1" alt="Modern Aluminum Folding Dining Table, Adjustable Height" loading="lazy" decoding="async" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Modern Aluminum Folding Dining Table, Adjustable Height</h3>
-                    <p class="text-gray-500 text-xs mb-4">US$8.60-8.80 | MOQ: 300 pcs</p>
+                    <p class="text-slate-400 text-xs mb-4">US$8.60-8.80 | MOQ: 300 pcs</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">Factory Direct</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md hover:bg-blue-200 transition">Request Quote</a>
+                        <span class="text-amber-400">Factory Direct</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg 200brightness-110 transition">Request Quote</a>
                     </div>
                 </div>
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
                         <img src="https://s.alicdn.com/@sc04/kf/H72fc553f59ab4ce3b3c000a855b0a7dbw/Wind-Valley-Heavy-Duty-Safe-Hanging-Tree.png_480x480.jpg?hasNWGrade=1" alt="Wind Valley Heavy-Duty Hanging Tree Tent Swing Hammock" loading="lazy" decoding="async" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Wind Valley Heavy-Duty Hanging Tree Tent Swing Hammock</h3>
-                    <p class="text-gray-500 text-xs mb-4">US$68.50-88 | MOQ: 50 pcs</p>
+                    <p class="text-slate-400 text-xs mb-4">US$68.50-88 | MOQ: 50 pcs</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">Factory Direct</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md hover:bg-blue-200 transition">Request Quote</a>
+                        <span class="text-amber-400">Factory Direct</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg 200brightness-110 transition">Request Quote</a>
                     </div>
                 </div>
             </div>
@@ -301,207 +317,207 @@
     </section>
 
     
-    <section id="faq" class="py-24 bg-gray-50 border-t">
+    <section id="faq" class="py-24 bg-[#0B0F17] border-b border-slate-800/80">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl font-bold text-center text-blue-900 mb-16 uppercase tracking-widest">B2B Sourcing Technical FAQ</h2>
+            <h2 class="text-4xl font-bold text-center text-white mb-16 uppercase tracking-widest">B2B Sourcing Technical FAQ</h2>
             <div class="space-y-4">
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">1. How many years of manufacturing experience do you have?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">1. How many years of manufacturing experience do you have?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         We have over 20 years of expertise since 2006. Our 18,300㎡ manufacturing base (3,300㎡ own plant in Ningbo + 15,000㎡ partner facilities in Anhui) specializes in high-durability family and professional camping gear.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">2. Is your factory BSCI or ISO certified?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">2. Is your factory BSCI or ISO certified?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         Yes, we are a BSCI-audited factory. We strictly adhere to international labor and quality standards, making us a reliable partner for EU and North American brands.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">3. What is your Minimum Order Quantity (MOQ)?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">3. What is your Minimum Order Quantity (MOQ)?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         Our MOQ varies by style to accommodate different market needs. We strongly support new partners by offering small-batch trial orders for first-time cooperation to lower your risk.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">4. What fabrics and waterproof ratings do you provide?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">4. What fabrics and waterproof ratings do you provide?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         We offer Oxford, Polyester, and Cotton with PA, PU, or Silicone coatings (300mm - 30,000mm). All seams are heat-taped and windows use waterproof plackets. To ensure your absolute confidence, we provide FREE fabric samples for your pre-production waterproof tests. Mass production only proceeds after your testing is successfully passed.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">5. Do your tents provide professional UV protection?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">5. Do your tents provide professional UV protection?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         Yes, we achieve UPF 50+ using Silver, Vinyl, or Titanium Silver coatings (meeting US ASTM D6603 & EU EN 13758). We offer free fabric swatches for your pre-order UV testing to verify compliance before we initiate mass manufacturing.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">6. What is your logistical advantage?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">6. What is your logistical advantage?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         Logistical efficiency is our pride. Our factory is strategically located near Beilun Port (Ningbo); our containers can reach the pier in just 30 minutes, ensuring rapid loading and significantly reducing total transit time.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">7. What are your internal QC procedures?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">7. What are your internal QC procedures?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         We maintain a 0-defect goal. In addition to material audits, we conduct 100% full inspection after assembly for every single unit before packing to ensure structural and aesthetic integrity.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">8. Do you offer full OEM/ODM services?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">8. Do you offer full OEM/ODM services?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         Absolutely. From custom logos and colors to complete structural redesigns, our technical team can provide CAD previews and material suggestions.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">9. What is the typical lead time for bulk orders?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">9. What is the typical lead time for bulk orders?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         For standard OEM orders, our lead time is 30-45 days. Rapid-dispatch models can be ready within 15-25 days depending on the peak season.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">10. Can I request a sample before placing a bulk order?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">10. Can I request a sample before placing a bulk order?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         Yes, we encourage sampling. Samples usually take 7-15 days, and the cost can be credited back toward your first container-level order.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">11. Do you provide volume-based discounts?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">11. Do you provide volume-based discounts?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         Yes, we offer competitive tiered pricing. For 1x20GP or 1x40HQ container orders, we provide significant cost-per-unit reductions.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">12. What is your product warranty policy?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">12. What is your product warranty policy?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         We provide a 1-year limited warranty on manufacturing defects. We also include a 1-2% spare parts kit (zippers, hooks) with each container.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">13. Can you help with packaging design for retail?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">13. Can you help with packaging design for retail?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         Yes, we offer full design support for color boxes, carry bags with custom instruction manuals, and PDQ display boxes for retailers.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">14. What is your monthly production capacity?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">14. What is your monthly production capacity?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         Our factory currently produces up to 20,000 tents per month, ensuring stable supply for large-scale retail promotions.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">15. How do your tents perform in high winds?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">15. How do your tents perform in high winds?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         Our structures are wind-tunnel tested to withstand speeds of up to 40-50 km/h (depending on the anchoring system and model).
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">16. What are your standard payment terms?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">16. What are your standard payment terms?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         Our standard terms are 30% deposit via T/T and 70% balance against the Bill of Lading (B/L). We also accept L/C at sight for large contracts.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">17. Can I conduct a virtual factory tour or 3rd party audit?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">17. Can I conduct a virtual factory tour or 3rd party audit?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         We welcome virtual tours via Zoom/WhatsApp and frequently host 3rd party inspectors from agencies like SGS or TÜV.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">18. Do you sign NDAs for exclusive designs?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">18. Do you sign NDAs for exclusive designs?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         Yes, intellectual property protection is our priority. We sign NDAs to ensure your exclusive ODM designs remain private and secure.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">19. What type of pole systems do you use?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">19. What type of pole systems do you use?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         We specialize in 'Automatic Pole' systems using reinforced fiberglass or aluminum alloys, designed for setup in under 60 seconds.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">20. Do you offer custom branding on small orders?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">20. Do you offer custom branding on small orders?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         Yes, we have specialized printing equipment to support logo customization even on trial-batch orders.
                     </div>
                 </div>
@@ -511,30 +527,30 @@
     </section>
     
 
-    <section class="py-24 bg-white border-y">
+    <section class="py-24 bg-[#0E131E] border-t border-slate-800/80">
         <div class="max-w-4xl mx-auto px-4 text-center">
-            <h2 class="text-4xl font-bold mb-8 text-blue-900">Request a Bulk Quote</h2>
-            <p class="text-xl text-gray-600 mb-10">Get factory-direct pricing and technical specs for your brand.</p>
+            <h2 class="text-4xl font-bold mb-8 text-white">Request a Bulk Quote</h2>
+            <p class="text-xl text-slate-300 mb-10">Get factory-direct pricing and technical specs for your brand.</p>
             <div class="flex flex-col md:flex-row justify-center gap-6">
-                <a href="mailto:ray@xinqiu-tent.com" class="bg-blue-600 text-white px-10 py-5 rounded-xl font-bold hover:bg-blue-700 transition">Email Export Manager</a>
-                <a href="https://wa.me/8618989341689" class="bg-green-600 text-white px-10 py-5 rounded-xl font-bold hover:bg-green-700 transition">WhatsApp Inquiry</a>
+                <a href="mailto:ray@xinqiu-tent.com" class="bg-amber-500 text-white px-10 py-5 rounded-xl font-bold hover:bg-amber-400 transition">Email Export Manager</a>
+                <a href="https://wa.me/8618989341689" class="bg-emerald-500 text-white px-10 py-5 rounded-xl font-bold hover:bg-emerald-400 transition">WhatsApp Inquiry</a>
             </div>
         </div>
     </section>
     
-    <footer class="bg-gray-900 text-white py-20 border-t border-slate-800">
+    <footer class="bg-[#070A0F] text-white py-20 border-t border-slate-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-3 gap-16 text-center md:text-left">
             <div>
                 <span class="text-3xl font-bold">XINQIU TENT</span>
                 <p class="mt-6 opacity-60 text-sm leading-relaxed mb-8">Ningbo Xinqiu Travelling Products Co., Ltd. - Your trusted B2B partner in the wild since 2006.</p>
                 
-                <h5 class="text-xs font-bold uppercase tracking-[0.2em] text-blue-500 mb-6">Connect with us (Official IDs)</h5>
+                <h5 class="text-xs font-bold uppercase tracking-[0.2em] text-amber-400 mb-6">Connect with us (Official IDs)</h5>
                 <div class="space-y-4">
-                    <a href="https://www.linkedin.com/company/ningbo-xinqiu-travelling-products-co-ltd/" target="_blank" class="flex items-center gap-3 hover:text-blue-500 transition group">
+                    <a href="https://www.linkedin.com/company/ningbo-xinqiu-travelling-products-co-ltd/" target="_blank" class="flex items-center gap-3 hover:text-amber-400 transition group">
                         <i class="fab fa-linkedin text-xl opacity-60 group-hover:opacity-100"></i>
                         <span class="text-xs font-medium">LinkedIn: Ningbo Xinqiu Travelling Products</span>
                     </a>
-                    <a href="https://www.linkedin.com/in/shichen-cheng-094b05237/" target="_blank" class="flex items-center gap-3 hover:text-blue-400 transition group">
+                    <a href="https://www.linkedin.com/in/shichen-cheng-094b05237/" target="_blank" class="flex items-center gap-3 hover:text-amber-400 transition group">
                         <i class="far fa-id-card text-xl opacity-60 group-hover:opacity-100"></i>
                         <span class="text-xs font-medium">LinkedIn (Ray): shichen cheng</span>
                     </a>
@@ -546,7 +562,7 @@
                         <i class="fab fa-tiktok text-xl opacity-60 group-hover:opacity-100"></i>
                         <span class="text-xs font-medium">TikTok: xinqiu_tent</span>
                     </a>
-                    <a href="https://www.facebook.com/share/18nmvYHjVt/?mibextid=wwXIfr" target="_blank" class="flex items-center gap-3 hover:text-blue-600 transition group">
+                    <a href="https://www.facebook.com/share/18nmvYHjVt/?mibextid=wwXIfr" target="_blank" class="flex items-center gap-3 hover:text-amber-400 transition group">
                         <i class="fab fa-facebook text-xl opacity-60 group-hover:opacity-100"></i>
                         <span class="text-xs font-medium">Facebook: shichen cheng</span>
                     </a>
@@ -555,10 +571,10 @@
             <div>
                 <h5 class="text-lg font-bold mb-6">B2B Quick Links</h5>
                 <ul class="space-y-4 text-sm opacity-60">
-                    <li><a href="camping-tents.html" class="hover:text-blue-400">Wholesale Camping Tents</a></li>
-                    <li><a href="pop-up-tents.html" class="hover:text-blue-400">Pop-up Instant Tents</a></li>
-                    <li><a href="changing-tents.html" class="hover:text-blue-400">Privacy Changing Rooms</a></li>
-                    <li><a href="index.html#faq" class="hover:text-blue-400">Technical FAQ</a></li>
+                    <li><a href="camping-tents.html" class="hover:text-amber-400">Wholesale Camping Tents</a></li>
+                    <li><a href="pop-up-tents.html" class="hover:text-amber-400">Pop-up Instant Tents</a></li>
+                    <li><a href="changing-tents.html" class="hover:text-amber-400">Privacy Changing Rooms</a></li>
+                    <li><a href="index.html#faq" class="hover:text-amber-400">Technical FAQ</a></li>
                 </ul>
             </div>
             <div>
@@ -567,19 +583,19 @@
                 <p class="mt-4 opacity-60 text-sm">Email: ray@xinqiu-tent.com</p>
             </div>
         </div>
-        <div class="max-w-7xl mx-auto px-4 text-center mt-20 pt-8 border-t border-gray-800 opacity-40 text-xs">
+        <div class="max-w-7xl mx-auto px-4 text-center mt-20 pt-8 border-t border-slate-800 opacity-40 text-xs">
             &copy; 2026 Ningbo Xinqiu Travelling Products Co., Ltd. All rights reserved.
         </div>
     </footer>
     <!-- WhatsApp Floating Button -->
     <div class="fixed bottom-8 right-8 z-[100] flex flex-col gap-4 items-end">
         <!-- Technical Catalog Sticky Button -->
-        <button onclick="openCatalogModal()" class="bg-blue-600 text-white p-4 rounded-full shadow-2xl hover:bg-blue-700 transition-all group flex items-center space-x-2">
+        <button onclick="openCatalogModal()" class="bg-amber-500 text-white p-4 rounded-full shadow-2xl hover:bg-amber-400 transition-all group flex items-center space-x-2">
             <i class="fas fa-file-pdf text-2xl"></i>
             <span class="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-500 ease-in-out whitespace-nowrap font-bold">Download 2026 Tech Catalog</span>
         </button>
         <!-- WhatsApp -->
-        <a href="https://wa.me/8618989341689" target="_blank" class="bg-green-500 text-white p-4 rounded-full shadow-2xl hover:bg-green-600 transition-all group flex items-center space-x-2">
+        <a href="https://wa.me/8618989341689" target="_blank" class="500brightness-110 text-white p-4 rounded-full shadow-2xl hover:bg-emerald-500 transition-all group flex items-center space-x-2">
             <i class="fab fa-whatsapp text-2xl"></i>
             <span class="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-500 ease-in-out whitespace-nowrap font-bold">Chat with Factory Manager</span>
         </a>
@@ -587,8 +603,8 @@
 
     <!-- Gated Catalog Modal -->
     <div id="catalogModal" class="fixed inset-0 z-[10000] hidden flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm">
-        <div class="bg-white rounded-3xl max-w-lg w-full overflow-hidden shadow-2xl animate-in fade-in zoom-in duration-300">
-            <div class="bg-blue-900 p-8 text-white relative">
+        <div class="bg-[#131926] rounded-3xl max-w-lg w-full overflow-hidden shadow-2xl animate-in fade-in zoom-in duration-300">
+            <div class="bg-[#131926] p-8 text-white relative">
                 <button onclick="closeCatalogModal()" class="absolute top-6 right-6 text-2xl opacity-60 hover:opacity-100 transition">&times;</button>
                 <h3 class="text-3xl font-bold mb-2">Technical Catalog</h3>
                 <p class="opacity-80">Please provide your details to access our 2026 B2B Technical Specs.</p>
@@ -599,18 +615,18 @@
                     <input type="hidden" name="_next" value="https://xinqiutent.com/catalog-success.html">
                     <input type="hidden" name="_captcha" value="false">
                     <div>
-                        <label class="block text-xs font-bold text-gray-500 uppercase tracking-widest mb-1">Company Name *</label>
+                        <label class="block text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Company Name *</label>
                         <input type="text" name="company" required class="w-full px-4 py-3 rounded-xl border focus:ring-2 focus:ring-blue-600 outline-none">
                     </div>
                     <div>
-                        <label class="block text-xs font-bold text-gray-500 uppercase tracking-widest mb-1">Business Email *</label>
+                        <label class="block text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Business Email *</label>
                         <input type="email" name="email" required class="w-full px-4 py-3 rounded-xl border focus:ring-2 focus:ring-blue-600 outline-none">
                     </div>
                     <div>
-                        <label class="block text-xs font-bold text-gray-500 uppercase tracking-widest mb-1">WhatsApp / Phone *</label>
+                        <label class="block text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">WhatsApp / Phone *</label>
                         <input type="text" name="whatsapp" required class="w-full px-4 py-3 rounded-xl border focus:ring-2 focus:ring-blue-600 outline-none">
                     </div>
-                    <button type="submit" class="w-full bg-blue-600 text-white font-bold py-4 rounded-xl hover:bg-blue-700 transition shadow-lg mt-4">Verify & Download Catalog</button>
+                    <button type="submit" class="w-full bg-amber-500 text-white font-bold py-4 rounded-xl hover:bg-amber-400 transition shadow-lg mt-4">Verify & Download Catalog</button>
                 </form>
             </div>
         </div>

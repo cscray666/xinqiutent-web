@@ -61,6 +61,24 @@
     </script>
     <script src="/assets/js/tracking.js" defer></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                black: '#0B0F17',
+                dark: '#0E131E',
+                card: '#131926',
+                cardHover: '#161F30',
+                amber: '#FF7A00',
+                gold: '#F59E0B'
+              }
+            }
+          }
+        }
+      }
+    </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" media="print" onload="this.media='all'">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap');
@@ -77,24 +95,22 @@
     <link rel="alternate" hreflang="x-default" href="https://xinqiutent.com/inflatable-tents.html">
     <!-- hreflang:end -->
 </head>
-<body class="bg-gray-50">
-    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b">
+<body class="bg-[#0B0F17] text-slate-100 selection:bg-amber-500 selection:text-black">
+    <nav class="fixed w-full z-50 bg-[#0B0F17]/90 backdrop-blur-md border-b border-slate-800/80">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-20 items-center">
                 <div class="flex-shrink-0 flex items-center gap-4">
                     <img src="/assets/images/favicon.png" class="h-10 w-10 rounded-full shadow-sm" alt="Logotipo de Xinqiu">
-                    <a href="index.html" class="text-2xl font-bold text-blue-900">XINQIU <span class="text-blue-600">TENT</span></a>
+                    <a href="index.html" class="text-2xl font-bold text-white tracking-wide">XINQIU <span class="text-amber-400">TENT</span></a>
                 </div>
                 
                 <div class="hidden md:flex space-x-6 text-xs font-semibold uppercase tracking-wider items-center">
-                    <a href="index.html" class="hover:text-blue-600 transition">Inicio</a>
-                    <a href="camping-tents.html" class="hover:text-blue-600 transition">Camping</a>
-                    <a href="pop-up-tents.html" class="hover:text-blue-600 transition">Plegables</a>
-                    <a href="changing-tents.html" class="hover:text-blue-600 transition">Vestidores</a>
-                    <a href="index.html#faq" class="hover:text-blue-600 transition">Preguntas Frecuentes</a>
-                    <a href="index.html#about" class="hover:text-blue-600 transition">Fábrica</a>
-                    <a href="index.html#news" class="hover:text-blue-600 transition">Inteligencia de Mercado</a>
-                    <a href="index.html#contact" class="px-5 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">Contactar</a>
+                    <a href="index.html" class="hover:text-amber-400 transition">Inicio</a>
+                    <a href="products.html" class="hover:text-amber-400 transition">Productos</a>
+                    <a href="index.html#faq" class="hover:text-amber-400 transition">Preguntas Frecuentes</a>
+                    <a href="index.html#about" class="hover:text-amber-400 transition">Fábrica</a>
+                    <a href="index.html#news" class="hover:text-amber-400 transition">Inteligencia de Mercado</a>
+                    <a href="index.html#contact" class="px-5 py-2 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-full hover:from-amber-400 hover:to-orange-400 transition shadow-md shadow-amber-500/20">Contactar</a>
 <!-- langswitch:start -->
                     <a href="https://xinqiutent.com/inflatable-tents.html" title="Read this page in English" class="ml-2 px-3 py-2 border border-slate-700 rounded-full text-[10px] font-bold uppercase tracking-widest text-slate-300 hover:border-amber-500 hover:text-amber-400 transition">EN</a>
                     <a href="https://xinqiutent.com/fr/inflatable-tents.html" title="Lire cette page en français" class="ml-2 px-3 py-2 border border-slate-700 rounded-full text-[10px] font-bold uppercase tracking-widest text-slate-300 hover:border-amber-500 hover:text-amber-400 transition">FR</a>
@@ -117,218 +133,218 @@
         </div>
     </nav>
 
-    <header class="bg-blue-900 text-white py-24 mt-20">
+    <header class="bg-gradient-to-b from-[#0E131E] via-[#0B0F17] to-[#0B0F17] text-white py-24 mt-20 border-b border-slate-800/80">
         <div class="max-w-7xl mx-auto px-4 text-center">
             <h1 class="text-5xl font-bold mb-6">The Future of Glamping: Air-Beam Tech</h1>
-            <p class="text-xl text-blue-200 max-w-3xl mx-auto">Luxury inflatable houses and professional air shelters. 5-minute setup, 100% waterproof.</p>
+            <p class="text-xl text-slate-300 max-w-3xl mx-auto">Luxury inflatable houses and professional air shelters. 5-minute setup, 100% waterproof.</p>
         </div>
     </header>
 
     
 
-    <section class="py-24 bg-white">
+    <section class="py-24 bg-[#0B0F17] border-b border-slate-800/80">
         <div class="max-w-7xl mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-12 text-center text-blue-900 uppercase tracking-widest">Selección de Exportación Global - Tiendas Inflables 2026</h2>
+            <h2 class="text-3xl font-bold mb-12 text-center text-white uppercase tracking-widest">Selección de Exportación Global - Tiendas Inflables 2026</h2>
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <!-- Added 2026-09-21: store catalogue expansion -->
                 
-                                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
+                                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
                         <img src="https://s.alicdn.com/@sc04/kf/Hd3bca5d514e34471911ecf3688c21d759.jpg_640x640.jpg" alt="Luxury Geodesic Inflatable Dome Glamping Tent - 900D Oxford Stargazing House" loading="lazy" decoding="async" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Luxury Geodesic Inflatable Dome Glamping Tent - 900D Oxford Stargazing House</h3>
-                    <p class="text-gray-500 text-xs mb-4">MOQ: 1 unidad</p>
+                    <p class="text-slate-400 text-xs mb-4">MOQ: 1 unidad</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">Directo de Fábrica</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md hover:bg-blue-200 transition">Solicitar Cotización</a>
+                        <span class="text-amber-400">Directo de Fábrica</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg 200brightness-110 transition">Solicitar Cotización</a>
                     </div>
                 </div>
         
-                                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
+                                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
                         <img src="https://s.alicdn.com/@sc04/kf/H26e07bbaa8834507991c7c8e9832b807F.jpg_640x640.jpg" alt="Luxury Inflatable Air Beam Glamping Tent - 600D Oxford Impermeable House" loading="lazy" decoding="async" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Luxury Inflatable Air Beam Glamping Tent - 600D Oxford Impermeable House</h3>
-                    <p class="text-gray-500 text-xs mb-4">MOQ: 1 Unit</p>
+                    <p class="text-slate-400 text-xs mb-4">MOQ: 1 Unit</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">Directo de Fábrica</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md hover:bg-blue-200 transition">Solicitar Cotización</a>
+                        <span class="text-amber-400">Directo de Fábrica</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg 200brightness-110 transition">Solicitar Cotización</a>
                     </div>
                 </div>
         
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
                         <img src="https://s.alicdn.com/@sc04/kf/Hd84b323965ca46cb923d29c0d34bbb50U/Wind-Valley-.png?hasNWGrade=1" alt="Wind Valley 4-Season Portable Oxford Inflatable Tienda de Campaña" loading="lazy" decoding="async" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Wind Valley 4-Season Portable Oxford Inflatable Tienda de Campaña</h3>
-                    <p class="text-gray-500 text-xs mb-4">95-110 | MOQ: 1 pc USD</p>
+                    <p class="text-slate-400 text-xs mb-4">95-110 | MOQ: 1 pc USD</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">Directo de Fábrica</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md hover:bg-blue-200 transition">Solicitar Cotización</a>
+                        <span class="text-amber-400">Directo de Fábrica</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg 200brightness-110 transition">Solicitar Cotización</a>
                     </div>
                 </div>
     
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
                         <img src="https://s.alicdn.com/@sc04/kf/H95b7d262f0604235b4d2f218e460185aR/Wind-Valley-12-8-12-.png_480x480.jpg?hasNWGrade=1" alt="Wind Valley 12sqm Family Inflatable Tent, 8-12 Person Capacity" loading="lazy" decoding="async" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Wind Valley 12sqm Family Inflatable Tent, 8-12 Person Capacity</h3>
-                    <p class="text-gray-500 text-xs mb-4">250-270 | MOQ: 1 pc USD</p>
+                    <p class="text-slate-400 text-xs mb-4">250-270 | MOQ: 1 pc USD</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">Directo de Fábrica</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md hover:bg-blue-200 transition">Solicitar Cotización</a>
+                        <span class="text-amber-400">Directo de Fábrica</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg 200brightness-110 transition">Solicitar Cotización</a>
                     </div>
                 </div>
     
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
                         <img src="https://s.alicdn.com/@sc04/kf/Hf3cfa979bfb04c119a0545cba41e6c1ec/-.png_480x480.jpg?hasNWGrade=1" alt="Wind Valley Inflatable Tienda de Campaña with Manual Pump & Mesh Windows" loading="lazy" decoding="async" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Wind Valley Inflatable Tienda de Campaña with Manual Pump & Mesh Windows</h3>
-                    <p class="text-gray-500 text-xs mb-4">45-65 | MOQ: 1 pc USD</p>
+                    <p class="text-slate-400 text-xs mb-4">45-65 | MOQ: 1 pc USD</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">Directo de Fábrica</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md hover:bg-blue-200 transition">Solicitar Cotización</a>
+                        <span class="text-amber-400">Directo de Fábrica</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg 200brightness-110 transition">Solicitar Cotización</a>
                     </div>
                 </div>
     
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
                         <img src="https://sc04.alicdn.com/kf/Hba055387126d466786268816b67b2428U/Wind-Valley-.png?hasNWGrade=1" alt="Wind Valley Heavy-Duty Inflatable Truck & SUV Tienda de Campaña" loading="lazy" decoding="async" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Wind Valley Heavy-Duty Inflatable Truck & SUV Tienda de Campaña</h3>
-                    <p class="text-gray-500 text-xs mb-4">100-120 | MOQ: 100 uds. USD</p>
+                    <p class="text-slate-400 text-xs mb-4">100-120 | MOQ: 100 uds. USD</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">Directo de Fábrica</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md hover:bg-blue-200 transition">Solicitar Cotización</a>
+                        <span class="text-amber-400">Directo de Fábrica</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg 200brightness-110 transition">Solicitar Cotización</a>
                     </div>
                 </div>
     
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
                         <img src="https://s.alicdn.com/@sc04/kf/H5337ec28c8ce49aaa99c2dbd70789779s/-.jpg_480x480.jpg?hasNWGrade=1" alt="Custom Inflatable Glamping Cabin Tent with Air Beams" loading="lazy" decoding="async" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Custom Inflatable Glamping Cabin Tent with Air Beams</h3>
-                    <p class="text-gray-500 text-xs mb-4">$142.00 - $145.00 | 50 Pieces</p>
+                    <p class="text-slate-400 text-xs mb-4">$142.00 - $145.00 | 50 Pieces</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">Directo de Fábrica</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md hover:bg-blue-200 transition">Solicitar Cotización</a>
+                        <span class="text-amber-400">Directo de Fábrica</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg 200brightness-110 transition">Solicitar Cotización</a>
                     </div>
                 </div>
     
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
                         <img src="https://s.alicdn.com/@sc04/kf/Ha065a47f1ce348559607119274644e86L/-TPU-.png_480x480.jpg?hasNWGrade=1" alt="Compact Inflatable Dome Tienda de Campaña with Durable TPU Air Beams" loading="lazy" decoding="async" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Compact Inflatable Dome Tienda de Campaña with Durable TPU Air Beams</h3>
-                    <p class="text-gray-500 text-xs mb-4">36-40 | MOQ: 300 uds. USD</p>
+                    <p class="text-slate-400 text-xs mb-4">36-40 | MOQ: 300 uds. USD</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">Directo de Fábrica</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md hover:bg-blue-200 transition">Solicitar Cotización</a>
+                        <span class="text-amber-400">Directo de Fábrica</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg 200brightness-110 transition">Solicitar Cotización</a>
                     </div>
                 </div>
     
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
                         <img src="https://s.alicdn.com/@sc04/kf/Hc374d3c9f0224414a64ae0b33dcaa6290/-.jpg_480x480.jpg?hasNWGrade=1" alt="Portable Inflatable Outdoor Camping & Beach Shelter Tent" loading="lazy" decoding="async" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Portable Inflatable Outdoor Camping & Beach Shelter Tent</h3>
-                    <p class="text-gray-500 text-xs mb-4">43-45 | MOQ: 200 uds. USD</p>
+                    <p class="text-slate-400 text-xs mb-4">43-45 | MOQ: 200 uds. USD</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">Directo de Fábrica</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md hover:bg-blue-200 transition">Solicitar Cotización</a>
+                        <span class="text-amber-400">Directo de Fábrica</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg 200brightness-110 transition">Solicitar Cotización</a>
                     </div>
                 </div>
     
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
                         <img src="https://s.alicdn.com/@sc04/kf/H83d63d13d75d413d85e9b68bd3c3ac29b/-.jpg_480x480.jpg?hasNWGrade=1" alt="Inflatable Quick-Pitch Outdoor Tienda de Campaña with Air Beams" loading="lazy" decoding="async" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Inflatable Quick-Pitch Outdoor Tienda de Campaña with Air Beams</h3>
-                    <p class="text-gray-500 text-xs mb-4">43-45 | MOQ: 200 uds. USD</p>
+                    <p class="text-slate-400 text-xs mb-4">43-45 | MOQ: 200 uds. USD</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">Directo de Fábrica</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md hover:bg-blue-200 transition">Solicitar Cotización</a>
+                        <span class="text-amber-400">Directo de Fábrica</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg 200brightness-110 transition">Solicitar Cotización</a>
                     </div>
                 </div>
     
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
                         <img src="https://s.alicdn.com/@sc04/kf/H81da919368c64769ab79944c956bd163o/-TPU-.png_480x480.jpg?hasNWGrade=1" alt="Lightweight Inflatable TPU Air Tube Dome Tienda de Campaña" loading="lazy" decoding="async" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Lightweight Inflatable TPU Air Tube Dome Tienda de Campaña</h3>
-                    <p class="text-gray-500 text-xs mb-4">36-40 | MOQ: 300 uds. USD</p>
+                    <p class="text-slate-400 text-xs mb-4">36-40 | MOQ: 300 uds. USD</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">Directo de Fábrica</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md hover:bg-blue-200 transition">Solicitar Cotización</a>
+                        <span class="text-amber-400">Directo de Fábrica</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg 200brightness-110 transition">Solicitar Cotización</a>
                     </div>
                 </div>
     
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
                         <img src="https://s.alicdn.com/@sc04/kf/H8da2d317997340a582d9a686ecbac2e88/-.jpg_480x480.jpg?hasNWGrade=1" alt="Customizable Inflatable Glamping Tent for Camping Familiar" loading="lazy" decoding="async" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Customizable Inflatable Glamping Tent for Camping Familiar</h3>
-                    <p class="text-gray-500 text-xs mb-4">43-45 | MOQ: 200 uds. USD</p>
+                    <p class="text-slate-400 text-xs mb-4">43-45 | MOQ: 200 uds. USD</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">Directo de Fábrica</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md hover:bg-blue-200 transition">Solicitar Cotización</a>
+                        <span class="text-amber-400">Directo de Fábrica</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg 200brightness-110 transition">Solicitar Cotización</a>
                     </div>
                 </div>
     
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
                         <img src="https://s.alicdn.com/@sc04/kf/H6cbe4eb46dbc4764bd1eeac2be0b83ecu/Wind-Valley-8-8-Outdoor-Inflatable-Tent.jpg_480x480.jpg?hasNWGrade=1" alt="Wind Valley 8.8sqm Inflatable Tent, 16cm PVC Polygonal Air Beam" loading="lazy" decoding="async" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Wind Valley 8.8sqm Inflatable Tent, 16cm PVC Polygonal Air Beam</h3>
-                    <p class="text-gray-500 text-xs mb-4">500-550 | MOQ: 10 uds. USD</p>
+                    <p class="text-slate-400 text-xs mb-4">500-550 | MOQ: 10 uds. USD</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">Directo de Fábrica</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md hover:bg-blue-200 transition">Solicitar Cotización</a>
+                        <span class="text-amber-400">Directo de Fábrica</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg 200brightness-110 transition">Solicitar Cotización</a>
                     </div>
                 </div>
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
                         <img src="https://s.alicdn.com/@sc04/kf/H58332983dd584ae09da6d2d494b52ffca/Wind-Valley-Lightweight-6-3-Flat-Single.jpg_480x480.jpg?hasNWGrade=1" alt="Wind Valley 6.3sqm Inflatable Tent, Large Skylight, Single Door" loading="lazy" decoding="async" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Wind Valley 6.3sqm Inflatable Tent, Large Skylight, Single Door</h3>
-                    <p class="text-gray-500 text-xs mb-4">90-110 | MOQ: 1 uds. USD</p>
+                    <p class="text-slate-400 text-xs mb-4">90-110 | MOQ: 1 uds. USD</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">Directo de Fábrica</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md hover:bg-blue-200 transition">Solicitar Cotización</a>
+                        <span class="text-amber-400">Directo de Fábrica</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg 200brightness-110 transition">Solicitar Cotización</a>
                     </div>
                 </div>
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
                         <img src="https://s.alicdn.com/@sc04/kf/H95b7d262f0604235b4d2f218e460185aR/Wind-Valley-12-Square-Meter-Inflatable-Tent.png_480x480.jpg?hasNWGrade=1" alt="Wind Valley 12sqm Inflatable Tent with Skylight and Pump" loading="lazy" decoding="async" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Wind Valley 12sqm Inflatable Tent with Skylight and Pump</h3>
-                    <p class="text-gray-500 text-xs mb-4">250-270 | MOQ: 1 uds. USD</p>
+                    <p class="text-slate-400 text-xs mb-4">250-270 | MOQ: 1 uds. USD</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">Directo de Fábrica</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md hover:bg-blue-200 transition">Solicitar Cotización</a>
+                        <span class="text-amber-400">Directo de Fábrica</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg 200brightness-110 transition">Solicitar Cotización</a>
                     </div>
                 </div>
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
                         <img src="https://s.alicdn.com/@sc04/kf/H6ef2c2d42621418f9d4264d375153b233/Wind-Valley-Portable-6-person-Waterproof-Inflatable.jpg_480x480.jpg?hasNWGrade=1" alt="Wind Valley 6-Person Inflatable Cabin Tent, 4-Season" loading="lazy" decoding="async" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Wind Valley 6-Person Inflatable Cabin Tent, 4-Season</h3>
-                    <p class="text-gray-500 text-xs mb-4">320-380 | MOQ: 1 uds. USD</p>
+                    <p class="text-slate-400 text-xs mb-4">320-380 | MOQ: 1 uds. USD</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">Directo de Fábrica</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md hover:bg-blue-200 transition">Solicitar Cotización</a>
+                        <span class="text-amber-400">Directo de Fábrica</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg 200brightness-110 transition">Solicitar Cotización</a>
                     </div>
                 </div>
-                <div class="bg-white rounded-2xl shadow-sm border p-6 hover:shadow-xl transition group">
-                    <div class="h-72 rounded-xl bg-gray-100 mb-6 overflow-hidden">
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 p-6 hover:border-amber-500/50 hover:shadow-2xl hover:shadow-amber-500/5 transition duration-300 group flex flex-col justify-between">
+                    <div class="h-72 rounded-xl bg-[#0B0F17] mb-6 overflow-hidden flex items-center justify-center p-2">
                         <img src="https://s.alicdn.com/@sc04/kf/Hff1ab941849f483698f5a244a57d3fbeA/Large-Space-Inflatable-Camping-House-Tent-Outdoor.png_480x480.jpg?hasNWGrade=1" alt="Large Space Inflatable Camping House Tent, Impermeable" loading="lazy" decoding="async" class="w-full h-full object-contain group-hover:scale-110 transition duration-500">
                     </div>
                     <h3 class="font-bold text-lg mb-2">Large Space Inflatable Camping House Tent, Impermeable</h3>
-                    <p class="text-gray-500 text-xs mb-4">155-200 | MOQ: 1 uds. USD</p>
+                    <p class="text-slate-400 text-xs mb-4">155-200 | MOQ: 1 uds. USD</p>
                     <div class="flex justify-between items-center text-xs font-bold">
-                        <span class="text-blue-600">Directo de Fábrica</span>
-                        <a href="index.html#contact" class="px-3 py-1 bg-blue-100 text-blue-600 rounded-md hover:bg-blue-200 transition">Solicitar Cotización</a>
+                        <span class="text-amber-400">Directo de Fábrica</span>
+                        <a href="index.html#contact" class="px-4 py-1.5 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-lg 200brightness-110 transition">Solicitar Cotización</a>
                     </div>
                 </div>
             </div>
@@ -336,207 +352,207 @@
     </section>
 
     
-    <section id="faq" class="py-24 bg-gray-50 border-t">
+    <section id="faq" class="py-24 bg-[#0B0F17] border-b border-slate-800/80">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl font-bold text-center text-blue-900 mb-16 uppercase tracking-widest">B2B Sourcing Technical FAQ</h2>
+            <h2 class="text-4xl font-bold text-center text-white mb-16 uppercase tracking-widest">B2B Sourcing Technical FAQ</h2>
             <div class="space-y-4">
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">1. ¿Cuántos años de experiencia en fabricación tienen?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">1. ¿Cuántos años de experiencia en fabricación tienen?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         Contamos con más de 20 años de experiencia desde 2006. Nuestra base de fabricación de 18.300㎡ (planta propia de 3.300㎡ en Ningbo + 15.000㎡ de instalaciones asociadas en Anhui) se especializa en equipamiento de camping familiar y profesional de alta durabilidad.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">2. ¿Está su fábrica certificada por BSCI o ISO?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">2. ¿Está su fábrica certificada por BSCI o ISO?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         Sí, somos una fábrica auditada por BSCI. Cumplimos rigurosamente con los estándares internacionales de calidad y laborales, siendo un socio fiable para marcas europeas y norteamericanas.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">3. ¿Cuál es su cantidad mínima de pedido (MOQ)?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">3. ¿Cuál es su cantidad mínima de pedido (MOQ)?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         Nuestro MOQ varía según el modelo para adaptarse a las distintas demandas del mercado. Apoyamos firmemente a los nuevos socios ofreciendo pedidos de prueba en lotes pequeños en la primera cooperación para minimizar su riesgo.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">4. ¿Qué tejidos y niveles de impermeabilidad ofrecen?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">4. ¿Qué tejidos y niveles de impermeabilidad ofrecen?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         Ofrecemos tejidos Oxford, poliéster y algodón con recubrimientos PA, PU o silicona (de 300 mm a 30.000 mm). Todas las costuras están termoselladas y las ventanas cuentan con solapas impermeables. Para su total tranquilidad, proporcionamos muestras de tela GRATUITAS para sus pruebas previas.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">5. ¿Ofrecen sus tiendas protección solar UV profesional?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">5. ¿Ofrecen sus tiendas protección solar UV profesional?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         Sí, alcanzamos UPF 50+ mediante recubrimientos de plata, vinilo o plata titanio (cumpliendo las normas US ASTM D6603 y EU EN 13758). Ofrecemos retales de tela gratuitos para que compruebe la protección UV antes de iniciar la producción en masa.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">6. ¿Cuál es su ventaja logística?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">6. ¿Cuál es su ventaja logística?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         Nuestra fábrica está ubicada estratégicamente a solo 30 minutos del puerto de Beilun (Ningbo); nuestros contenedores llegan al muelle en 30 minutos, asegurando una carga rápida y reduciendo el tiempo total de tránsito.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">7. ¿Cómo son sus procedimientos internos de control de calidad?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">7. ¿Cómo son sus procedimientos internos de control de calidad?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         Mantenemos un objetivo de cero defectos. Además de auditar los materiales, realizamos una inspección completa al 100% tras el montaje de cada tienda antes del embalaje.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">8. ¿Ofrecen servicios completos de OEM y ODM?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">8. ¿Ofrecen servicios completos de OEM y ODM?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         Por supuesto. Desde logotipos y colores personalizados hasta rediseños estructurales completos, nuestro equipo técnico proporciona planos CAD y asesoramiento en materiales.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">9. ¿Cuál es el plazo habitual de entrega para pedidos al por mayor?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">9. ¿Cuál es el plazo habitual de entrega para pedidos al por mayor?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         Para pedidos OEM estándar, nuestro plazo de entrega es de 30 a 45 días. Los modelos de despacho rápido pueden estar listos en 15 a 25 días según la temporada.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">10. ¿Puedo solicitar una muestra antes de realizar un pedido grande?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">10. ¿Puedo solicitar una muestra antes de realizar un pedido grande?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         Sí, recomendamos solicitar muestras. Suelen tardar entre 7 y 15 días, y su coste se abona en su primer pedido por contenedor.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">11. ¿Ofrecen descuentos por volumen de compra?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">11. ¿Ofrecen descuentos por volumen de compra?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         Sí, ofrecemos precios escalonados muy competitivos. Para pedidos de contenedores 1x20GP o 1x40HQ aplicamos importantes reducciones de coste unitario.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">12. ¿Cuál es su política de garantía de producto?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">12. ¿Cuál es su política de garantía de producto?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         Ofrecemos 1 año de garantía limitada contra defectos de fabricación. Además, incluimos un kit de repuestos del 1-2% (cremalleras, ganchos) en cada contenedor.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">13. ¿Pueden ayudar con el diseño de embalaje para venta minorista?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">13. ¿Pueden ayudar con el diseño de embalaje para venta minorista?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         Yes, we offer full design support for color boxes, carry bags with custom instruction manuals, and PDQ display boxes for retailers.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">14. ¿Cuál es su capacidad mensual de producción?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">14. ¿Cuál es su capacidad mensual de producción?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         Our factory currently produces up to 20,000 tents per month, ensuring stable supply for large-scale retail promotions.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">15. ¿Cómo responden sus tiendas ante vientos fuertes?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">15. ¿Cómo responden sus tiendas ante vientos fuertes?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         Our structures are wind-tunnel tested to withstand speeds of up to 40-50 km/h (depending on the anchoring system and model).
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">16. ¿Cuáles son sus condiciones de pago habituales?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">16. ¿Cuáles son sus condiciones de pago habituales?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         Our standard terms are 30% deposit via T/T and 70% balance against the Bill of Lading (B/L). We also accept L/C at sight for large contracts.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">17. ¿Puedo realizar una visita virtual a la fábrica o una auditoría externa?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">17. ¿Puedo realizar una visita virtual a la fábrica o una auditoría externa?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         We welcome virtual tours via Zoom/WhatsApp and frequently host 3rd party inspectors from agencies like SGS or TÜV.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">18. ¿Firman acuerdos de confidencialidad (NDA) para diseños exclusivos?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">18. ¿Firman acuerdos de confidencialidad (NDA) para diseños exclusivos?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         Yes, intellectual property protection is our priority. We sign NDAs to ensure your exclusive ODM designs remain private and secure.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">19. ¿Qué tipos de varillas o estructuras utilizan?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">19. ¿Qué tipos de varillas o estructuras utilizan?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         We specialize in 'Automatic Pole' systems using reinforced fiberglass or aluminum alloys, designed for setup in under 60 seconds.
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
-                        <span class="font-bold text-lg text-blue-900">20. ¿Ofrecen personalización de marca en pedidos pequeños?</span>
-                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                <div class="bg-[#131926] rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition">
+                    <button class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-[#161F30] transition" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i').classList.toggle('rotate-180')">
+                        <span class="font-bold text-lg text-white">20. ¿Ofrecen personalización de marca en pedidos pequeños?</span>
+                        <i class="fas fa-chevron-down text-amber-400 transition-transform"></i>
                     </button>
-                    <div class="px-8 pb-8 text-gray-600 leading-relaxed hidden">
+                    <div class="px-8 pb-8 text-slate-300 leading-relaxed hidden">
                         Yes, we have specialized printing equipment to support logo customization even on trial-batch orders.
                     </div>
                 </div>
@@ -546,30 +562,30 @@
     </section>
     
 
-    <section class="py-24 bg-white border-y">
+    <section class="py-24 bg-[#0E131E] border-t border-slate-800/80">
         <div class="max-w-4xl mx-auto px-4 text-center">
-            <h2 class="text-4xl font-bold mb-8 text-blue-900">Request a Bulk Quote</h2>
-            <p class="text-xl text-gray-600 mb-10">Obtenga precios directos de fábrica y especificaciones técnicas para su marca.</p>
+            <h2 class="text-4xl font-bold mb-8 text-white">Request a Bulk Quote</h2>
+            <p class="text-xl text-slate-300 mb-10">Obtenga precios directos de fábrica y especificaciones técnicas para su marca.</p>
             <div class="flex flex-col md:flex-row justify-center gap-6">
-                <a href="mailto:ray@xinqiu-tent.com" class="bg-blue-600 text-white px-10 py-5 rounded-xl font-bold hover:bg-blue-700 transition">Contactar al Gerente de Exportación</a>
-                <a href="https://wa.me/8618989341689" class="bg-green-600 text-white px-10 py-5 rounded-xl font-bold hover:bg-green-700 transition">Consulta por WhatsApp</a>
+                <a href="mailto:ray@xinqiu-tent.com" class="bg-amber-500 text-white px-10 py-5 rounded-xl font-bold hover:bg-amber-400 transition">Contactar al Gerente de Exportación</a>
+                <a href="https://wa.me/8618989341689" class="bg-emerald-500 text-white px-10 py-5 rounded-xl font-bold hover:bg-emerald-400 transition">Consulta por WhatsApp</a>
             </div>
         </div>
     </section>
     
-    <footer class="bg-gray-900 text-white py-20 border-t border-slate-800">
+    <footer class="bg-[#070A0F] text-white py-20 border-t border-slate-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-3 gap-16 text-center md:text-left">
             <div>
                 <span class="text-3xl font-bold">XINQIU TENT</span>
                 <p class="mt-6 opacity-60 text-sm leading-relaxed mb-8">Ningbo Xinqiu Travelling Products Co., Ltd. - Su socio B2B de confianza para exteriores desde 2006.</p>
                 
-                <h5 class="text-xs font-bold uppercase tracking-[0.2em] text-blue-500 mb-6">Conéctese con nosotros (Canales Oficiales)</h5>
+                <h5 class="text-xs font-bold uppercase tracking-[0.2em] text-amber-400 mb-6">Conéctese con nosotros (Canales Oficiales)</h5>
                 <div class="space-y-4">
-                    <a href="https://www.linkedin.com/company/ningbo-xinqiu-travelling-products-co-ltd/" target="_blank" class="flex items-center gap-3 hover:text-blue-500 transition group">
+                    <a href="https://www.linkedin.com/company/ningbo-xinqiu-travelling-products-co-ltd/" target="_blank" class="flex items-center gap-3 hover:text-amber-400 transition group">
                         <i class="fab fa-linkedin text-xl opacity-60 group-hover:opacity-100"></i>
                         <span class="text-xs font-medium">LinkedIn: Ningbo Xinqiu Travelling Products</span>
                     </a>
-                    <a href="https://www.linkedin.com/in/shichen-cheng-094b05237/" target="_blank" class="flex items-center gap-3 hover:text-blue-400 transition group">
+                    <a href="https://www.linkedin.com/in/shichen-cheng-094b05237/" target="_blank" class="flex items-center gap-3 hover:text-amber-400 transition group">
                         <i class="far fa-id-card text-xl opacity-60 group-hover:opacity-100"></i>
                         <span class="text-xs font-medium">LinkedIn (Ray): shichen cheng</span>
                     </a>
@@ -581,7 +597,7 @@
                         <i class="fab fa-tiktok text-xl opacity-60 group-hover:opacity-100"></i>
                         <span class="text-xs font-medium">TikTok: xinqiu_tent</span>
                     </a>
-                    <a href="https://www.facebook.com/share/18nmvYHjVt/?mibextid=wwXIfr" target="_blank" class="flex items-center gap-3 hover:text-blue-600 transition group">
+                    <a href="https://www.facebook.com/share/18nmvYHjVt/?mibextid=wwXIfr" target="_blank" class="flex items-center gap-3 hover:text-amber-400 transition group">
                         <i class="fab fa-facebook text-xl opacity-60 group-hover:opacity-100"></i>
                         <span class="text-xs font-medium">Facebook: shichen cheng</span>
                     </a>
@@ -590,10 +606,10 @@
             <div>
                 <h5 class="text-lg font-bold mb-6">B2B Quick Links</h5>
                 <ul class="space-y-4 text-sm opacity-60">
-                    <li><a href="camping-tents.html" class="hover:text-blue-400">Tiendas de Campaña al por Mayor</a></li>
-                    <li><a href="pop-up-tents.html" class="hover:text-blue-400">Pop-up Instant Tents</a></li>
-                    <li><a href="changing-tents.html" class="hover:text-blue-400">Privacy Changing Rooms</a></li>
-                    <li><a href="index.html#faq" class="hover:text-blue-400">Technical FAQ</a></li>
+                    <li><a href="camping-tents.html" class="hover:text-amber-400">Tiendas de Campaña al por Mayor</a></li>
+                    <li><a href="pop-up-tents.html" class="hover:text-amber-400">Pop-up Instant Tents</a></li>
+                    <li><a href="changing-tents.html" class="hover:text-amber-400">Privacy Changing Rooms</a></li>
+                    <li><a href="index.html#faq" class="hover:text-amber-400">Technical FAQ</a></li>
                 </ul>
             </div>
             <div>
@@ -602,19 +618,19 @@
                 <p class="mt-4 opacity-60 text-sm">Email: ray@xinqiu-tent.com</p>
             </div>
         </div>
-        <div class="max-w-7xl mx-auto px-4 text-center mt-20 pt-8 border-t border-gray-800 opacity-40 text-xs">
+        <div class="max-w-7xl mx-auto px-4 text-center mt-20 pt-8 border-t border-slate-800 opacity-40 text-xs">
             &copy; 2026 Ningbo Xinqiu Travelling Products Co., Ltd. Todos los derechos reservados.
         </div>
     </footer>
     <!-- WhatsApp Floating Button -->
     <div class="fixed bottom-8 right-8 z-[100] flex flex-col gap-4 items-end">
         <!-- Technical Catalog Sticky Button -->
-        <button onclick="openCatalogModal()" class="bg-blue-600 text-white p-4 rounded-full shadow-2xl hover:bg-blue-700 transition-all group flex items-center space-x-2">
+        <button onclick="openCatalogModal()" class="bg-amber-500 text-white p-4 rounded-full shadow-2xl hover:bg-amber-400 transition-all group flex items-center space-x-2">
             <i class="fas fa-file-pdf text-2xl"></i>
             <span class="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-500 ease-in-out whitespace-nowrap font-bold">Descargar Catálogo Técnico 2026</span>
         </button>
         <!-- WhatsApp -->
-        <a href="https://wa.me/8618989341689" target="_blank" class="bg-green-500 text-white p-4 rounded-full shadow-2xl hover:bg-green-600 transition-all group flex items-center space-x-2">
+        <a href="https://wa.me/8618989341689" target="_blank" class="500brightness-110 text-white p-4 rounded-full shadow-2xl hover:bg-emerald-500 transition-all group flex items-center space-x-2">
             <i class="fab fa-whatsapp text-2xl"></i>
             <span class="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-500 ease-in-out whitespace-nowrap font-bold">Conversar con el Director de Fábrica</span>
         </a>
@@ -622,8 +638,8 @@
 
     <!-- Gated Catalog Modal -->
     <div id="catalogModal" class="fixed inset-0 z-[10000] hidden flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm">
-        <div class="bg-white rounded-3xl max-w-lg w-full overflow-hidden shadow-2xl animate-in fade-in zoom-in duration-300">
-            <div class="bg-blue-900 p-8 text-white relative">
+        <div class="bg-[#131926] rounded-3xl max-w-lg w-full overflow-hidden shadow-2xl animate-in fade-in zoom-in duration-300">
+            <div class="bg-[#131926] p-8 text-white relative">
                 <button onclick="closeCatalogModal()" class="absolute top-6 right-6 text-2xl opacity-60 hover:opacity-100 transition">&times;</button>
                 <h3 class="text-3xl font-bold mb-2">Catálogo Técnico 2026</h3>
                 <p class="opacity-80">Por favor complete sus datos para acceder a las especificaciones técnicas B2B 2026.</p>
@@ -634,18 +650,18 @@
                     <input type="hidden" name="_next" value="https://xinqiutent.com/catalog-success.html">
                     <input type="hidden" name="_captcha" value="false">
                     <div>
-                        <label class="block text-xs font-bold text-gray-500 uppercase tracking-widest mb-1">Nombre de la Empresa *</label>
+                        <label class="block text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Nombre de la Empresa *</label>
                         <input type="text" name="company" required class="w-full px-4 py-3 rounded-xl border focus:ring-2 focus:ring-blue-600 outline-none">
                     </div>
                     <div>
-                        <label class="block text-xs font-bold text-gray-500 uppercase tracking-widest mb-1">Correo Corporativo *</label>
+                        <label class="block text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Correo Corporativo *</label>
                         <input type="email" name="email" required class="w-full px-4 py-3 rounded-xl border focus:ring-2 focus:ring-blue-600 outline-none">
                     </div>
                     <div>
-                        <label class="block text-xs font-bold text-gray-500 uppercase tracking-widest mb-1">WhatsApp / Teléfono *</label>
+                        <label class="block text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">WhatsApp / Teléfono *</label>
                         <input type="text" name="whatsapp" required class="w-full px-4 py-3 rounded-xl border focus:ring-2 focus:ring-blue-600 outline-none">
                     </div>
-                    <button type="submit" class="w-full bg-blue-600 text-white font-bold py-4 rounded-xl hover:bg-blue-700 transition shadow-lg mt-4">Verificar y Descargar Catálogo</button>
+                    <button type="submit" class="w-full bg-amber-500 text-white font-bold py-4 rounded-xl hover:bg-amber-400 transition shadow-lg mt-4">Verificar y Descargar Catálogo</button>
                 </form>
             </div>
         </div>
