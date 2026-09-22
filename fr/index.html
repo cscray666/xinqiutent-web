@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="google-site-verification" content="9C2URH4zAkqWWbc26nGTGhG9UqG33IqYqkDlfxK7gU4" />
@@ -788,8 +788,8 @@
                         </div>
                     </div>
                     <div>
-                        <label class="block text-sm font-bold text-slate-300 mb-2">Nom de l'entreprise</label>
-                        <input type="text" name="company" class="w-full px-5 py-4 rounded-xl bg-[#0B0F17] border border-slate-700 text-white placeholder-slate-500 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none">
+                        <label class="block text-sm font-bold text-slate-300 mb-2">Nom de l'entreprise *</label>
+                        <input type="text" name="company" required class="w-full px-5 py-4 rounded-xl bg-[#0B0F17] border border-slate-700 text-white placeholder-slate-500 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none">
                     </div>
                     <div>
                         <label class="block text-sm font-bold text-slate-300 mb-2">Message (parlez-nous de vos besoins en gros) *</label>
@@ -878,7 +878,7 @@
     </script>
 
     <!-- WhatsApp Floating Button -->
-    <div class="fixed bottom-8 right-8 z-[100] flex flex-col gap-4 items-end">
+    <div id="floating-buttons" class="fixed bottom-8 right-8 z-[100000] flex flex-col gap-4 items-end transition-all duration-500">
         <!-- Technical Catalog Sticky Button -->
         <button onclick="openCatalogModal()" class="bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold p-4 rounded-full shadow-2xl hover:from-amber-400 hover:to-orange-400 shadow-amber-500/20 transition-all group flex items-center space-x-2">
             <i class="fas fa-file-pdf text-2xl"></i>
