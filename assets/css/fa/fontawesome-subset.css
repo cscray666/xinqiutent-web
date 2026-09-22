@@ -1,0 +1,44 @@
+/* Font Awesome 6.0.0 - subsetted to the icons used by xinqiutent.com */
+@font-face{font-family:"Font Awesome 6 Free";font-style:normal;font-weight:900;font-display:swap;src:url("/assets/css/fa/fa-solid-900.subset.woff2") format("woff2");}
+.fa,.fas,.far,.fab,.fal,.fad{font-family:"Font Awesome 6 Free";font-style:normal;font-weight:900;display:inline-block;line-height:1;-webkit-font-smoothing:antialiased;overflow:visible}
+.fa,.fas{font-weight:900}
+.far{font-weight:400}
+.fab{font-family:"Font Awesome 6 Brands";font-weight:400}
+.fa-arrow-left:before{content:"\f060"}
+.fa-arrow-right:before{content:"\f061"}
+.fa-award:before{content:"\f559"}
+.fa-boxes:before{content:"\f468"}
+.fa-certificate:before{content:"\f0a3"}
+.fa-check:before{content:"\f00c"}
+.fa-check-circle:before{content:"\f058"}
+.fa-chevron-down:before{content:"\f078"}
+.fa-clipboard-check:before{content:"\f46c"}
+.fa-drafting-compass:before{content:"\f568"}
+.fa-envelope:before{content:"\f0e0"}
+.fa-expand:before{content:"\f065"}
+.fa-eye-slash:before{content:"\f070"}
+.fa-facebook:before{content:"\f09a"}
+.fa-file-download:before{content:"\f56d"}
+.fa-file-pdf:before{content:"\f1c1"}
+.fa-fire-extinguisher:before{content:"\f134"}
+.fa-flask:before{content:"\f0c3"}
+.fa-globe-americas:before{content:"\f57d"}
+.fa-hammer:before{content:"\f6e3"}
+.fa-id-card:before{content:"\f2c2"}
+.fa-industry:before{content:"\f275"}
+.fa-instagram:before{content:"\f16d"}
+.fa-leaf:before{content:"\f06c"}
+.fa-linkedin:before{content:"\f08c"}
+.fa-magic:before{content:"\f0d0"}
+.fa-paper-plane:before{content:"\f1d8"}
+.fa-play:before{content:"\f04b"}
+.fa-print:before{content:"\f02f"}
+.fa-shield-alt:before{content:"\f3ed"}
+.fa-shield-virus:before{content:"\e06c"}
+.fa-tiktok:before{content:"\e07b"}
+.fa-tools:before{content:"\f7d9"}
+.fa-users:before{content:"\f0c0"}
+.fa-vial:before{content:"\f492"}
+.fa-whatsapp:before{content:"\f232"}
+.fa-wind:before{content:"\f72e"}
+.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-lg{font-size:1.25em}
