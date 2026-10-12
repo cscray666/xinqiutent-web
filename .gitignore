@@ -45,3 +45,12 @@
 *.tmp
 Thumbs.db
 Desktop.ini
+
+# --- 内部表格与文档（含经营数据：广告花费/询盘量/成本，禁止发布）---
+/*.xlsx
+/*.xlsm
+/*.xls
+/*.csv
+/*.docx
+/*.doc
+/*.pptx
