@@ -15,4 +15,22 @@
                 document.body.removeChild(link);
             }, 1500);
         };
-    </script> </body></html>
+    </script> <script data-ga4-events="1">
+(function(){
+  function send(n,p){try{if(typeof gtag==='function')gtag('event',n,p||{});}catch(e){}}
+  var started=false;
+  document.addEventListener('focusin',function(e){
+    if(started)return;var f=e.target&&e.target.closest&&e.target.closest('form');
+    if(f){started=true;send('form_start',{form_location:f.getAttribute('action')||'inquiry'});}
+  },true);
+  document.addEventListener('click',function(e){
+    var a=e.target&&e.target.closest&&e.target.closest('a');if(!a)return;
+    var h=a.getAttribute('href')||'';
+    if(/wa\.me|api\.whatsapp\.com|^whatsapp:/.test(h))send('whatsapp_click',{link_url:h});
+    else if(/^mailto:/.test(h))send('email_click',{link_url:h});
+    else if(/\.pdf($|\?)/i.test(h)||a.hasAttribute('download'))send('file_download',{link_url:h});
+  },true);
+  if(/success\.html$/i.test(location.pathname))send('generate_lead',{method:'inquiry_form'});
+  if(/catalog-success\.html$/i.test(location.pathname))send('file_download',{method:'catalog_modal'});
+})();
+</script></body></html>

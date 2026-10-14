@@ -85,4 +85,22 @@
     </ul>
   </div>
 </section>
-<section class="py-24 bg-[#131926] text-center"><div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8"><h2 class="text-3xl font-bold text-white mb-6">See the QC process applied to your product</h2><p class="text-slate-300 mb-8">Send us your specification and we will tell you exactly which checks it will go through.</p><a href="index.html#contact" class="px-8 py-4 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-full hover:from-amber-400 hover:to-orange-400 transition">Request a Quote</a></div></section><footer class="bg-[#131926] text-white py-12"><div class="max-w-7xl mx-auto px-4 text-center"><p class="opacity-60">&copy; 2026 Ningbo Xinqiu Travelling Products Co., Ltd. All rights reserved.</p></div></footer><a href="https://wa.me/8618989341689" target="_blank" class="fixed bottom-8 right-8 z-[100] bg-emerald-500 text-white p-4 rounded-full shadow-2xl hover:bg-emerald-500 transition-all group flex items-center space-x-2"><i class="fab fa-whatsapp text-2xl"></i><span class="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-500 ease-in-out whitespace-nowrap font-bold">Chat with Factory Manager</span></a></body></html>
+<section class="py-24 bg-[#131926] text-center"><div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8"><h2 class="text-3xl font-bold text-white mb-6">See the QC process applied to your product</h2><p class="text-slate-300 mb-8">Send us your specification and we will tell you exactly which checks it will go through.</p><a href="index.html#contact" class="px-8 py-4 bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold rounded-full hover:from-amber-400 hover:to-orange-400 transition">Request a Quote</a></div></section><footer class="bg-[#131926] text-white py-12"><div class="max-w-7xl mx-auto px-4 text-center"><p class="opacity-60">&copy; 2026 Ningbo Xinqiu Travelling Products Co., Ltd. All rights reserved.</p></div><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10 pt-2"><h5 class="text-xs font-bold uppercase tracking-[0.2em] text-amber-500 mb-3">Email us</h5><a href="mailto:ray@xinqiu-tent.com" class="text-slate-300 text-sm hover:text-amber-400 transition">ray@xinqiu-tent.com</a></div></footer><a href="https://wa.me/8618989341689" target="_blank" class="fixed bottom-8 right-8 z-[100] bg-emerald-500 text-white p-4 rounded-full shadow-2xl hover:bg-emerald-500 transition-all group flex items-center space-x-2"><i class="fab fa-whatsapp text-2xl"></i><span class="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-500 ease-in-out whitespace-nowrap font-bold">Chat with Factory Manager</span></a><script data-ga4-events="1">
+(function(){
+  function send(n,p){try{if(typeof gtag==='function')gtag('event',n,p||{});}catch(e){}}
+  var started=false;
+  document.addEventListener('focusin',function(e){
+    if(started)return;var f=e.target&&e.target.closest&&e.target.closest('form');
+    if(f){started=true;send('form_start',{form_location:f.getAttribute('action')||'inquiry'});}
+  },true);
+  document.addEventListener('click',function(e){
+    var a=e.target&&e.target.closest&&e.target.closest('a');if(!a)return;
+    var h=a.getAttribute('href')||'';
+    if(/wa\.me|api\.whatsapp\.com|^whatsapp:/.test(h))send('whatsapp_click',{link_url:h});
+    else if(/^mailto:/.test(h))send('email_click',{link_url:h});
+    else if(/\.pdf($|\?)/i.test(h)||a.hasAttribute('download'))send('file_download',{link_url:h});
+  },true);
+  if(/success\.html$/i.test(location.pathname))send('generate_lead',{method:'inquiry_form'});
+  if(/catalog-success\.html$/i.test(location.pathname))send('file_download',{method:'catalog_modal'});
+})();
+</script></body></html>
