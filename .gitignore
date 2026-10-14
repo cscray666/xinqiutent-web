@@ -54,3 +54,6 @@ Desktop.ini
 /*.docx
 /*.doc
 /*.pptx
+
+# --- IndexNow 站点验证文件（必须以明文公开在站点根目录）---
+!/235df3c3cda27b69b477e39b428b8a4d.txt
