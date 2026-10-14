@@ -78,12 +78,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://xinqiutent.com/news.html</loc>
-    <lastmod>2026-08-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
+  
   <url>
     <loc>https://xinqiutent.com/privacy.html</loc>
     <lastmod>2026-08-20</lastmod>
@@ -768,36 +763,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>https://xinqiutent.com/products.html</loc>
-    <lastmod>2026-09-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://xinqiutent.com/fr/products.html</loc>
-    <lastmod>2026-09-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://xinqiutent.com/de/products.html</loc>
-    <lastmod>2026-09-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://xinqiutent.com/es/products.html</loc>
-    <lastmod>2026-09-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://xinqiutent.com/pt/products.html</loc>
-    <lastmod>2026-09-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
+  
+  
+  
+  
+  
   <url>
     <loc>https://xinqiutent.com/ar/about.html</loc>
     <lastmod>2026-09-22</lastmod>
@@ -841,7 +811,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://xinqiutent.com/ar/index.html</loc>
+    <loc>https://xinqiutent.com/ar/</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -870,12 +840,7 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
-  <url>
-    <loc>https://xinqiutent.com/ar/products.html</loc>
-    <lastmod>2026-09-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
+  
   <url>
     <loc>https://xinqiutent.com/ar/roof-top-tents.html</loc>
     <lastmod>2026-09-22</lastmod>
