@@ -108,7 +108,7 @@
       return;
     }
     // Product category pages
-    if (/(camping|pop-up|changing|roof-top|beach|inflatable|outdoor-furniture)-?tents?|outdoor-furniture/.test(href)) {
+    if (/(camping|pop-up|changing|beach|inflatable)-?tents?|outdoor-furniture/.test(href)) {
       track('product_category_view', { category_url: href });
       return;
     }
