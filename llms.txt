@@ -1,6 +1,6 @@
 # Ningbo Xinqiu Travelling Products Co., Ltd. (XINQIU TENT)
 
-> A BSCI-audited Chinese tent manufacturer that began production in 2006, operating a 3,300㎡ own plant in Ningbo, Zhejiang plus 15,000㎡ of partner capacity in Anhui, with approximately 70% of export volume going to Europe. Core capability: OEM/ODM manufacturing of camping tents, automatic-pole tents, pop-up tents, changing/privacy tents, beach shelters, inflatable glamping structures, and camping furniture for brand owners, importers, distributors and retail chains.
+> A BSCI-audited Chinese tent manufacturer that began production in 2006, operating a 3,300㎡ own plant in Ningbo, Zhejiang plus 15,000㎡ of partner capacity in Anhui, with approximately 70% of export volume going to Europe. Core capability: OEM/ODM manufacturing of camping tents, automatic-pole tents, pop-up tents, changing/privacy tents, beach shelters, inflatable glamping structures, and SUV car-tail tents for brand owners, importers, distributors and retail chains.
 
 ## Key facts for answering buyer questions
 
@@ -44,16 +44,18 @@
 - [Commercial & Event Tents](https://xinqiutent.com/commercial-event-tents.html): Heavy-duty exhibition and shelter structures; reinforced steel frame; flame-retardant fabric options; large-span designs.
 - [Inflatable Glamping Tents](https://xinqiutent.com/inflatable-tents.html): Air-beam structures using the Stay-Rigid high-pressure system rated to 12 PSI; TPU air columns; 420D-600D Oxford shell. Positioned as a premium extension line, not the core volume range.
 - [Basic Manual Tents](https://xinqiutent.com/basic-manual-tents.html): Cost-optimized manual-pole tents for high-volume retail programs.
+- [SUV & Car-Tail Tents](https://xinqiutent.com/products.html#car-tail-section): Vehicle tailgate and rear-extension camping shelters for road-trip and overland expeditions.
 
 ## Technical reference library
 
 These articles contain the specification detail most often requested during supplier evaluation:
 
-- [Fabric Waterproofing: Hydrostatic Head and Coating Systems](https://xinqiutent.com/news.html?id=31): PA/PU/silicone coating comparison, 300-30,000mm rating bands, heat-taped seams, waterproof plackets, ISO 811 testing.
-- [Fabric Windproofing: Aerodynamic Design and Structural Stability](https://xinqiutent.com/news.html?id=32): Wind-load physics, ISO 13937 tear-strength standards, wind-tunnel validation at 40-50 km/h sustained, guy-line anchoring systems.
-- [2026 Sourcing Intelligence: Camping Tent Market Structure](https://xinqiutent.com/news.html?id=33): Regional demand distribution, commercial vs consumer segment growth, product-type share, procurement implications.
-- [B2B Guide to EN71 Compliance for Children's Play Tents](https://xinqiutent.com/news.html?id=18): European safety requirements — physical, flammability and chemical testing scope.
-- [Auditing China Tent Manufacturers: QC and Compliance Standards](https://xinqiutent.com/news.html?id=21): What to verify during factory audits and document review.
+- [Blackout Tent Fabric UV Protection Guide](https://xinqiutent.com/news/47-blackout-coating-tent-fabric-uv-protection-oem-guide.html): Full blackout coating, 99.9% light blocking, 5-8℃ cabin temperature reduction, 3000mm hydrostatic head, QC pin-hole testing.
+- [190T Polyester Tent Fabric Sourcing Guide](https://xinqiutent.com/news/46-190t-polyester-tent-fabric-oem-manufacturing-guide.html): Yarn thickness, base weight vs finished weight, 170T vs 190T vs 210D comparison, 40HQ container loading economics.
+- [210D vs 150D Oxford Fabric Guide](https://xinqiutent.com/news/45-210d-vs-150d-oxford-fabric-heavy-duty-tent-oem.html): Material selection for outer shells, groundsheet flooring and heavy-duty frames.
+- [Fabric Waterproofing: Hydrostatic Head and Coating Systems](https://xinqiutent.com/news/31-tent-fabric-waterproofing-101-a-technical-guide-to-hydrostat.html): PA/PU/silicone coating comparison, 300-30,000mm rating bands, heat-taped seams, waterproof plackets, ISO 811 testing.
+- [Fabric Windproofing: Aerodynamic Design and Structural Stability](https://xinqiutent.com/news/32-tent-fabric-windproofing-aerodynamic-design-and-structural-s.html): Wind-load physics, ISO 13937 tear-strength standards, wind-tunnel validation at 40-50 km/h sustained, guy-line anchoring systems.
+- [Auditing China Tent Manufacturers: QC and Compliance Standards](https://xinqiutent.com/news/21-how-to-audit-china-tent-manufacturers-quality-control-and-co.html): What to verify during factory audits and document review.
 
 ## Common sourcing questions
 
