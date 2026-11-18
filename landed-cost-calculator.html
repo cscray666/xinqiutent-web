@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tent Landed Cost Calculator | Import Duty & Freight | XINQIU TENT</title>
+<meta name="description" content="Calculate the landed cost of importing tents from China — FOB price, ocean freight, insurance, import duty and VAT. HS 6306.22 duty rates for US, EU, UK.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://xinqiutent.com/landed-cost-calculator.html">
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<style>body{font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#0B0F17}</style>
+</head>
+<body class="bg-[#0B0F17] text-slate-300">
+<nav class="sticky top-0 z-50 bg-[#0B0F17]/90 backdrop-blur border-b border-slate-800">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+    <a href="/" class="text-white font-black text-xl tracking-tight">XINQIU<span class="text-amber-500">TENT</span></a>
+    <div class="hidden md:flex items-center gap-6 text-sm">
+      <a href="/factory.html" class="hover:text-amber-400">Factory</a>
+      <a href="/products.html" class="hover:text-amber-400">Products</a>
+      <a href="/news.html" class="hover:text-amber-400">Guides</a>
+      <a href="/#contact" class="hover:text-amber-400">Contact</a>
+    </div>
+    <a href="/#contact" class="bg-amber-500 text-black font-bold px-4 py-2 rounded-lg text-sm">Get a Quote</a>
+  </div>
+</nav>
+
+<header class="py-14 px-6 text-center border-b border-slate-800">
+  <p class="text-amber-500 text-sm font-semibold uppercase tracking-widest mb-3">Free Tool</p>
+  <h1 class="text-3xl md:text-5xl font-black text-white mb-4">Tent Landed Cost Calculator</h1>
+  <p class="max-w-2xl mx-auto text-slate-400">Estimate your true per-unit cost after ocean freight, insurance, import duty and VAT — before you commit to an order.</p>
+</header>
+
+<main class="max-w-5xl mx-auto px-6 py-12 grid md:grid-cols-5 gap-8">
+  <section class="md:col-span-3 space-y-6">
+    <div class="bg-[#131926] border border-slate-800 rounded-2xl p-6 space-y-4">
+      <h2 class="text-xl font-bold text-white">1 · Order details</h2>
+      <div class="grid grid-cols-2 gap-4">
+        <label class="block"><span class="text-sm text-slate-400">FOB price per unit (USD)</span>
+          <input id="fob" type="number" value="35" min="0" step="0.5" class="mt-1 w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white"></label>
+        <label class="block"><span class="text-sm text-slate-400">Quantity (units)</span>
+          <input id="qty" type="number" value="1000" min="1" class="mt-1 w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white"></label>
+      </div>
+      <label class="block"><span class="text-sm text-slate-400">Destination market</span>
+        <select id="dest" class="mt-1 w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white">
+          <option value="US">United States — duty 8.8%</option>
+          <option value="EU">European Union — duty 12%</option>
+          <option value="UK">United Kingdom — duty 12%</option>
+          <option value="AU">Australia — duty ~5%*</option>
+        </select></label>
+    </div>
+
+    <div class="bg-[#131926] border border-slate-800 rounded-2xl p-6 space-y-4">
+      <h2 class="text-xl font-bold text-white">2 · Freight & port fees <span class="text-sm font-normal text-slate-500">(editable — varies by season)</span></h2>
+      <div class="grid grid-cols-2 gap-4">
+        <label class="block"><span class="text-sm text-slate-400">Ocean freight (USD / container)</span>
+          <input id="freight" type="number" value="3500" min="0" class="mt-1 w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white"></label>
+        <label class="block"><span class="text-sm text-slate-400">Destination port & clearance (USD)</span>
+          <input id="portfee" type="number" value="600" min="0" class="mt-1 w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-white"></label>
+      </div>
+      <p class="text-xs text-slate-500">Insurance is estimated at 0.4% of FOB value. Ocean freight fluctuates with the market — update it to your forwarder's current quote.</p>
+    </div>
+  </section>
+
+  <section class="md:col-span-2">
+    <div class="bg-gradient-to-br from-slate-900 to-amber-950/30 border border-amber-500/30 rounded-2xl p-6 sticky top-24">
+      <h2 class="text-lg font-bold text-white mb-4">Landed cost breakdown</h2>
+      <div id="result" class="space-y-2 text-sm"></div>
+      <div class="border-t border-slate-700 pt-3 mt-4">
+        <div class="flex justify-between font-bold text-white text-lg"><span>Landed cost / unit</span><span id="unitCost" class="text-amber-400">—</span></div>
+        <div class="flex justify-between text-slate-400 mt-1"><span>Total landed</span><span id="totalCost">—</span></div>
+      </div>
+      <p class="text-xs text-slate-500 mt-4">Duty rates use HS 6306.22.00, verified against USITC HTS (Apr 2026). Final figures are determined by the destination customs authority.</p>
+    </div>
+  </section>
+</main>
+
+<section class="max-w-5xl mx-auto px-6 pb-16">
+  <div class="bg-[#131926] border border-slate-800 rounded-2xl p-6 text-sm text-slate-400 space-y-2">
+    <h3 class="text-white font-bold text-base mb-2">How this works</h3>
+    <p><strong class="text-amber-400">FOB price</strong> — your ex-factory unit cost, including China-side inland transport to port.</p>
+    <p><strong class="text-amber-400">Ocean freight</strong> — the container cost from Ningbo/Beilun port to the destination port. This is the volatile figure; enter your forwarder's live quote.</p>
+    <p><strong class="text-amber-400">Import duty</strong> — the destination country's tariff on tent HS code 6306.22.00 (US 8.8%, EU 12%, UK 12%).</p>
+    <p><strong class="text-amber-400">VAT / GST</strong> — destination sales tax on the duty-inclusive value (EU ≈19%, UK 20%, AU 10%, US 0% for B2B imports).</p>
+    <p><strong class="text-amber-400">Port & clearance</strong> — destination-side customs brokerage, terminal handling and delivery.</p>
+  </div>
+</section>
+
+<footer class="border-t border-slate-800 py-8 text-center text-xs text-slate-500">
+  <p>© 2026 Ningbo Xinqiu Travelling Products Co., Ltd. · XINQIU TENT · <a href="/factory.html" class="hover:text-amber-400">Factory</a> · <a href="https://wa.me/8618989341689" class="hover:text-amber-400">WhatsApp</a></p>
+</footer>
+
+<script>
+const TARIFF = {US: 8.8, EU: 12, UK: 12, AU: 5};
+const VAT = {US: 0, EU: 19, UK: 20, AU: 10};
+const INS = 0.004;
+function fmt(n){ return n.toLocaleString('en-US', {style:'currency', currency:'USD'}); }
+function calc(){
+  const fob = parseFloat(document.getElementById('fob').value) || 0;
+  const qty = parseFloat(document.getElementById('qty').value) || 1;
+  const d = document.getElementById('dest').value;
+  const freight = parseFloat(document.getElementById('freight').value) || 0;
+  const port = parseFloat(document.getElementById('portfee').value) || 0;
+  const fobTotal = fob * qty;
+  const ins = fobTotal * INS;
+  const duty = fobTotal * TARIFF[d] / 100;
+  const vat = (fobTotal + freight + ins + duty) * VAT[d] / 100;
+  const total = fobTotal + freight + ins + duty + vat + port;
+  const unit = total / qty;
+  document.getElementById('result').innerHTML =
+    `<div class="flex justify-between"><span>FOB value</span><span class="text-slate-200">${fmt(fobTotal)}</span></div>`+
+    `<div class="flex justify-between"><span>Ocean freight</span><span class="text-slate-200">${fmt(freight)}</span></div>`+
+    `<div class="flex justify-between"><span>Insurance (0.4%)</span><span class="text-slate-200">${fmt(ins)}</span></div>`+
+    `<div class="flex justify-between"><span>Import duty (${TARIFF[d]}%)</span><span class="text-slate-200">${fmt(duty)}</span></div>`+
+    `<div class="flex justify-between"><span>VAT/GST (${VAT[d]}%)</span><span class="text-slate-200">${fmt(vat)}</span></div>`+
+    `<div class="flex justify-between"><span>Port & clearance</span><span class="text-slate-200">${fmt(port)}</span></div>`;
+  document.getElementById('unitCost').textContent = fmt(unit);
+  document.getElementById('totalCost').textContent = fmt(total);
+}
+['fob','qty','dest','freight','portfee'].forEach(id => document.getElementById(id).addEventListener('input', calc));
+calc();
+</script>
+</body>
+</html>
