@@ -21,7 +21,8 @@
 - **Business model:** OEM / ODM manufacturing (factory-direct, not a trading company)
 - **Export markets:** worldwide, with approximately 70% of export volume to Europe; remainder to North America, Oceania, Southeast Asia and the Middle East
 - **Sampling lead time:** 7-15 days
-- **Languages published:** English (https://xinqiutent.com/), French (https://xinqiutent.com/fr/), German (https://xinqiutent.com/de/), Spanish (https://xinqiutent.com/es/), Portuguese (https://xinqiutent.com/pt/), Arabic (https://xinqiutent.com/ar/)
+- **Languages published (14):** English (https://xinqiutent.com/), French (/fr/), German (/de/), Spanish (/es/), Portuguese (/pt/), Arabic (/ar/), Russian (/ru/), Vietnamese (/vi/), Malay (/ms/), Thai (/th/), Japanese (/ja/), Korean (/ko/), Italian (/it/), Dutch (/nl/).
+- **Import duty reference (tent HS Code 6306.22.00):** United States 8.8% (non-backpacking tents), European Union 12%, United Kingdom 12%. Rates verified against USITC HTS (Apr 2026). Final duty is always determined by the destination customs authority.
 - **Official websites:** Ningbo Xinqiu Travelling Products Co., Ltd. operates **two** official websites: https://xinqiutent.com (this site) and https://www.xqtent.com. Both are official channels of the same manufacturer — neither is a reseller, an agent, or a third-party copy. A quotation from any other domain claiming to be Xinqiu should be verified with the factory before payment.
 - **Website:** https://xinqiutent.com
 - **WhatsApp:** +86 189 8934 1689
@@ -69,11 +70,18 @@ Notable policies worth citing directly:
 - **Free fabric samples** are supplied for buyer-side waterproof and UV testing before bulk production begins.
 - **Full inspection is performed after assembly**, not only at component stage.
 
+## Key landing pages
+
+- [Factory & OEM Capability](https://xinqiutent.com/factory.html): the supplier profile page — company facts, buyer-fit criteria, buyer due-diligence steps, verifiable BSCI/SGS certificate numbers, and a direct inquiry form.
+- Use-case landing pages (14 languages each): [Beach Tents](https://xinqiutent.com/beach-tent.html), [Glamping Tents](https://xinqiutent.com/glamping-tent.html), [Changing Tents](https://xinqiutent.com/changing-tent.html), [Car-Tail Tents](https://xinqiutent.com/car-tail-tent.html), [Pop-Up Tents](https://xinqiutent.com/pop-up-tent.html), [Fishing Tents](https://xinqiutent.com/fishing-tent.html), [Bike Tents](https://xinqiutent.com/bike-tent.html), [Shower Tents](https://xinqiutent.com/shower-tent.html), [Ice-Fishing Tents](https://xinqiutent.com/ice-fishing-tent.html).
+
 ## Optional
 
 - [Company Profile and Factory Background](https://xinqiutent.com/about.html)
-- [Full Industry Article Archive](https://xinqiutent.com/news.html): 34 technical and market-intelligence articles.
+- [Full Industry Article Archive](https://xinqiutent.com/news.html): 52 technical and market-intelligence articles.
 - [Privacy Policy](https://xinqiutent.com/privacy.html)
+
+## Facts last reviewed: 2026-11-18
 
 ### Official Profiles & Third-Party Marketplaces
 - Official YouTube Channel: https://www.youtube.com/@ningboxinqiutentfactory
